@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YdBYphuMO0S4c2q5mb5Wxw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases" CVScreenId="e8ed87e1-1c9f-4f87-92b8-1a93bebddd3a" CvTextArea="624, 300, 143, 11" CvType="AnyWordGroup" DesignTimeRectangle="616, 293, 181, 26" DesignTimeScaleFactor="0.75" ElementType="ListItem" FullSelectorArgument="&lt;webctrl aria-role='menuitem' css-selector='body&amp;gt;div&amp;gt;ul&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;li' idx='2' parentid='jira' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='menuitem' type='' class='szh-menu__item css-833q4y e1kb91rq3' parentid='jira' tag='LI' /&gt;" Guid="fda3dd13-44b4-41f0-9551-0ae06ca179c1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e8ed87e1-1c9f-4f87-92b8-1a93bebddd3a" CvTextArea="624, 300, 143, 11" CvTextArgument="Edit selected test cases in bulk" CvType="Text" DesignTimeRectangle="624, 300, 143, 11" ElementType="Text" Guid="2cbd76e3-b70f-4e21-baa0-0c4662fb8b2b" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bb24eb47b7b689932b3565ddc15ad1d5.png" xmlns="">0Nn4Sx6hMg0C2W7i_227upw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

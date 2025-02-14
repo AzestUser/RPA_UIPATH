@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Labels_dropdown",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "VuOtv6MG40GZqIoNefeGWg",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/VuOtv6MG40GZqIoNefeGWg",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/4FxqY6qxAUSxA2JakK4daQ",
+  "Created": "2024-05-21T18:12:45.5457474Z",
+  "Updated": "2024-05-21T18:12:45.5457474Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

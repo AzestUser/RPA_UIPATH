@@ -1,0 +1,274 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sprint_apdate_state" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="700,1688.8" sap2010:WorkflowViewState.IdRef="Sprint_apdate_state_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataRow3" xmlns:sd1="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugade="clr-namespace:UiPath.GSuite.Activities.Drive.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugam="clr-namespace:UiPath.GSuite.Activities.Models;assembly=UiPath.GSuite.Activities" xmlns:ugase="clr-namespace:UiPath.GSuite.Activities.Sheets.Enums;assembly=UiPath.GSuite.Activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.GSuite</x:String>
+      <x:String>UiPath.GSuite.Activities</x:String>
+      <x:String>UiPath.GSuite.Activities.Contracts</x:String>
+      <x:String>UiPath.GSuite.Activities.Drive.Enums</x:String>
+      <x:String>UiPath.GSuite.Activities.Enums</x:String>
+      <x:String>UiPath.GSuite.Activities.Sheets</x:String>
+      <x:String>UiPath.GSuite.Activities.Sheets.Enums</x:String>
+      <x:String>UiPath.GSuite.Contracts</x:String>
+      <x:String>UiPath.GSuite.Drive.Models</x:String>
+      <x:String>UiPath.GSuite.Sheets.Enums</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataRow3</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataRow4</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable1</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable2</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sprint_apdate_state" sap:VirtualizedContainerService.HintSize="732,2228" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="ExtractedURL" />
+      <Variable x:TypeArguments="x:String" Default="https://projects.qad.com/browse/QIP-5657" Name="BaseUrl" />
+      <Variable x:TypeArguments="sd1:DataTable" Default="[New System.Data.DataTable]" Name="TicketStatus" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uga:ForEachRowConnections x:TypeArguments="sd:DataRow3" ConnectionAccountName="{x:Null}" RangeMetadata="{x:Null}" AuthScopesInvalid="False" ConnectionId="e1e38a6a-b4ba-ed11-ba77-0003ffe7e379" DisplayName="For Each Row in Spreadsheet" EmptyRowAction="Skip" HasHeaders="True" sap:VirtualizedContainerService.HintSize="669.6,702.4" sap2010:WorkflowViewState.IdRef="ForEachRowConnections`1_1" Length="[_out_ForEachRowConnections_Generic_1_1__Length]" Range="AS" ReadAs="Values" TemplateBrowserItemFriendlyName="ActiveSprint" TemplateBrowserItemId="https://docs.google.com/spreadsheets/d/18di-J0Di74gRnldkJjHAT4ZeQ288_OLrgOK96prgYzo/edit?usp=drivesdk" UseConnectionService="True" WorkingWithTemplateSpreadsheet="True">
+      <uga:ForEachRowConnections.Body>
+        <ActivityAction x:TypeArguments="sd:DataRow3, x:Int32">
+          <ActivityAction.Argument1>
+            <DelegateInArgument x:TypeArguments="sd:DataRow3" Name="CurrentRow" />
+          </ActivityAction.Argument1>
+          <ActivityAction.Argument2>
+            <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentRowIndex" />
+          </ActivityAction.Argument2>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="377.6,346.4" sap2010:WorkflowViewState.IdRef="Sequence_17">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uga:ReadCellConnections x:TypeArguments="x:String" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Result="{x:Null}" AuthScopesInvalid="False" Cell="[string.Format(&quot;&quot;&quot;A2&quot;&quot;&quot;)]" CellValueType="Text" ConnectionId="e1e38a6a-b4ba-ed11-ba77-0003ffe7e379" DisplayName="Read Cell" HideCell="False" sap:VirtualizedContainerService.HintSize="334.4,256.8" sap2010:WorkflowViewState.IdRef="ReadCellConnections`1_1" RangeLocation="'!AS'" UseConnectionService="True" WhatToRead="Values">
+              <uga:ReadCellConnections.Item>
+                <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID1}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/18di-J0Di74gRnldkJjHAT4ZeQ288_OLrgOK96prgYzo/edit?usp=drivesdk" FriendlyName="ActiveSprint" InputMode="Browse">
+                  <ugam:DriveItemArgument.FullPathHint>
+                    <InArgument x:TypeArguments="x:String">
+                      <Literal x:TypeArguments="x:String" Value="" />
+                    </InArgument>
+                  </ugam:DriveItemArgument.FullPathHint>
+                </ugam:DriveItemArgument>
+              </uga:ReadCellConnections.Item>
+              <uga:ReadCellConnections.ManualEntrySpreadsheetId>
+                <x:Null />
+              </uga:ReadCellConnections.ManualEntrySpreadsheetId>
+              <uga:ReadCellConnections.Spreadsheet>
+                <x:Null />
+              </uga:ReadCellConnections.Spreadsheet>
+              <uga:ReadCellConnections.BrowserItemFriendlyName>ActiveSprint</uga:ReadCellConnections.BrowserItemFriendlyName>
+              <uga:ReadCellConnections.BrowserItemId>https://docs.google.com/spreadsheets/d/18di-J0Di74gRnldkJjHAT4ZeQ288_OLrgOK96prgYzo/edit?usp=drivesdk</uga:ReadCellConnections.BrowserItemId>
+              <uga:ReadCellConnections.ItemSelectionMode>Browse</uga:ReadCellConnections.ItemSelectionMode>
+              <uga:ReadCellConnections.FileIdBackup>
+                <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID1" StoredValue="Browse">
+                  <usau:BackupSlot.BackupValues>
+                    <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+                  </usau:BackupSlot.BackupValues>
+                </usau:BackupSlot>
+              </uga:ReadCellConnections.FileIdBackup>
+            </uga:ReadCellConnections>
+          </Sequence>
+        </ActivityAction>
+      </uga:ForEachRowConnections.Body>
+      <uga:ForEachRowConnections.ColumnNames>
+        <x:Array Type="x:String">
+          <x:String>Status</x:String>
+          <x:String>Key Url</x:String>
+          <x:String>P Alt Text</x:String>
+          <x:String>Summary</x:String>
+          <x:String>Comments</x:String>
+          <x:String>Story Points</x:String>
+          <x:String>Assignee</x:String>
+          <x:String>Reporter</x:String>
+        </x:Array>
+      </uga:ForEachRowConnections.ColumnNames>
+      <uga:ForEachRowConnections.Item>
+        <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID0}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/18di-J0Di74gRnldkJjHAT4ZeQ288_OLrgOK96prgYzo/edit?usp=drivesdk" FriendlyName="ActiveSprint" InputMode="Browse">
+          <ugam:DriveItemArgument.FullPathHint>
+            <InArgument x:TypeArguments="x:String">
+              <Literal x:TypeArguments="x:String" Value="" />
+            </InArgument>
+          </ugam:DriveItemArgument.FullPathHint>
+        </ugam:DriveItemArgument>
+      </uga:ForEachRowConnections.Item>
+      <uga:ForEachRowConnections.ManualEntrySpreadsheetId>
+        <x:Null />
+      </uga:ForEachRowConnections.ManualEntrySpreadsheetId>
+      <uga:ForEachRowConnections.Spreadsheet>
+        <x:Null />
+      </uga:ForEachRowConnections.Spreadsheet>
+      <uga:ForEachRowConnections.BrowserItemFriendlyName>ActiveSprint</uga:ForEachRowConnections.BrowserItemFriendlyName>
+      <uga:ForEachRowConnections.BrowserItemId>https://docs.google.com/spreadsheets/d/18di-J0Di74gRnldkJjHAT4ZeQ288_OLrgOK96prgYzo/edit?usp=drivesdk</uga:ForEachRowConnections.BrowserItemId>
+      <uga:ForEachRowConnections.ItemSelectionMode>Browse</uga:ForEachRowConnections.ItemSelectionMode>
+      <uga:ForEachRowConnections.FileIdBackup>
+        <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID0" StoredValue="Browse">
+          <usau:BackupSlot.BackupValues>
+            <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+          </usau:BackupSlot.BackupValues>
+        </usau:BackupSlot>
+      </uga:ForEachRowConnections.FileIdBackup>
+    </uga:ForEachRowConnections>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: [QIP-5492] [US] [Routing registry] Implement rules and constraints for the conne" sap:VirtualizedContainerService.HintSize="669.6,1373.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="29f4d697-9688-4c25-89f4-e36d461b9ef5" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="512,913.6" sap2010:WorkflowViewState.IdRef="Sequence_14">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,269.6" sap2010:WorkflowViewState.IdRef="Sequence_13">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NGetText DisplayName="Get Text 'Work'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="29f4d697-9688-4c25-89f4-e36d461b9ef5" TextString="[TicketStatus]" Version="V3">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="https://projects.qad.com/browse/QIP-5657" CvElementArea="834, 307, 46, 18" CvTextArea="839, 309, 36, 12" CvTextArgument="WORK" CvType="Button" DesignTimeRectangle="836, 307, 44, 16" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='status-val' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='status-val' tag='SPAN' type='' class=' jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-yellow jira-issue-status-lozenge-indeterminate jira-issue-status-lozenge-max-width-medium' /&gt;" Guid="bb9adcf1-60d1-4a09-95ca-e1cdee9d0f34" InformativeScreenshot="32f7b4f1ccedac352482e23c730dd15c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='[QIP-5657] [US] [Routing registry] View main grid with Rules - JIRA' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target Accuracy="0.91" CvTextArgument="2 QAD" CvType="Text" DesignTimeRectangle="85, 102, 100, 30" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='IMG' type='' class='' aaname='JIRA' /&gt;" Guid="623ff1db-a9f5-4bf8-b54e-1f6234da3eec" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGgAAAAiCAYAAACz35yrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAkYSURBVGhD7VppcFRFEPaPVZZaKqZKLLByERPlUCDHvs0BBNBwX2qQCCaKBx7EoBBARZF4oBhJCaIYPNCgIBhMFIxC1CBHFCwNCAVW4UmRxHgiYFCg3W+sHmffzrs2S0GV+fHV7r7p6enub6Znet6edlasQe04ddFO0CmOdoJOcQQRlNXToPIxftp4i4++K/ZT471+2lVoUOV4g0pHGZSb7qPYhGAF7TixCCJoYIpBNQWGIMYKIO61PIOGJvvo7Dh/kLJ2RB7aFNe7m4+m5hhiJelIYnw40U8DAqtOpyMSwARg8G+zTKTQVt2qrXZgWXN/K9juQVBk9AikvasNmfJ0WBhoj4rX6/CKzpdfQeMmzaCny1+jN6rep7XrN4rPR8qW0JC8OygqqY+2X7iAvnnPLKXKNbXUb9RErYwdYO/ipSuFne/WWoP9mPPkYroyd5IY1w1Rrg8JSRdriJphUFNxICUGPmvyDbowPrxZCEN79s+lZW+upQMHD9HRo8fo2LFj4vPvv4+KT8bPv/xGcxe8KAKj0+UVS5atFmMA0B3Te5BWzgogh21kPVaADPv1w/4mmj3vWbqga7ZWL8M1QQykP6Q2EARyBKb6qPkeH5Vf5dP2ccIDjy+i1iNHhOHHjx8XYEcY+I3n/LuxuYWGjy/0lC7MiE0eLCaEqhtB08nqgLGx8hB86LCD2Q9+tvfbfWLlWvnhmSAA6WxOjk8SowIpUddHh/MSMmjV2+ukgzCcZxsMr36vTqSF9RvqxW92koMJuWkPzQ+bpIfnlwsdasAws92mUZUg7gt78UyHjzZtpeaWn6Xt7AcmJ9K6zg/XBOk6j0416Ieif4lpKkoVKBzgfhUtWVYpDGRD/2w9IlJOypV5YjwVIHPYdZMFWZBlILC3Ti3R2mcHpJb9TS1BM5rtuPnuh7R9zMCYCDyCDVTVfCSfWwHkjy6YQtsadkn78QmSBo+7I2QMR4LOj/NRclw6DY5Op45xwW0YcEiqT5DUdHuKwJyBqUEyVphYNFsYxkFByuJNGnrN8urzolnzZEoE/jh4WOxhZnk73DnjsaDxf/n1dxmsL77cY2mDCsioBOG7m34A5EpKnw+yATFA2lXlLAkacXEmvZE0iFq6jqHW7tcI5MaFLn0MhJXUNClZAMWsWcYMbPAwBkZxcHoNGOvJuevvvF/OegSn9uNPPPXfuXuvHL9h5x5BmLqKsFp1fVVAT7gEAZB98IlFYjweFxlElQkh6LKYdKq9dKgkhfFqovXpBgNNz06j7wMEublpwL4BY3jG5k+e5ckxBp+g2Lms4Te40oPgq0FBSkPKw6Rhm3A0dtKF9rYQxKj5YJMYF0BmuCR9pGwLIignIStoxTBK4/pLGTvkp+mfm/H5jt0iCMCWrQ1aGTfASsTRmJ0DYTo5FQgg72PoA1L4UIBDA56DOATKKW1GiiDsuRiPJ8z0kjLZJgnCygE5h5OCCSpOsj+nM7p29dG2glTHgrVL2jBpDJy6rfhhrZxbLF9dI8nevusrrQwDwTMGT5Ak4FM9VsM2PnajzZxuzIgUQeiDEx77sa6uXrZJgpZGZ9MfMUPpUMIISVJBYj9XA6JA3ZSXTD/e2Ity/dZ7EHRdcc0kYQQHoVvWGK2sWyA9ITjQB+KdCj8Uwzw+yDBvyk7tKiJFEPBI2RI5afY1NsvnkqDG6EGCIEZeYl9Xg2HFrB7Rm36acLlASXaKVo6BzR3OwJiDhw47BtQOsA/XP3CKnUvyj7S0Wy1MIWteIejHK4xl7ApXyEeKIEw09gMTjZ9Lgprih9KBzjmCnPwuma4GMpNzMgjCvRY7hqB273OVpe1qYYo+VntM3eZtkiS7wjXSBLFtWoIqAykOBE2Lz3I1CNKamRwAryF08gD08oznGdrWFKcSDsc6XTZQK6cWppDHQcHKTxSSTDo+rQrXSBKE6y7YBuC2gZ9LglD3VF3UTzbYAUfp+tG9Qsh5fYT96gGQgth5OFVQOEsr5xYvL68W+gBcB1kFyFyY2tU5uLVQ6ySrwjVSBKGP4yEBQS9IyJQNVsBpbce4UHLeGZ3s+jZbPWZv2PJZWE4BWBXqDUB5RaVWDvrdBFzFlAfmCVk7QqEjEgSh7uGTLca679EFsk0SNLOjQT+eEThuR1sPoCPnm/G9qCgzzZNh2HhV50deH96tdOG9c2VagJ7+Y27S6uHClOWsUpYKkM81FoKvS4n4HQmCVla/L/pjLBClLVQ/OddPf53uoz1n+SkpRj/IW8OTBSn7x/ekLWN707S+aRQTxn8U1AITAUOxeGnGKK2sHTDT0B/OWRW8CBhSBuQAL7fV8xdXiD5sJwpKs8xLr1dJgvDd3G4H2GZOvSveei9IRhLUdE6GIAjYca7+zyF4aZdyiUExXULbvACG3XX/E8IpNgz7R6omAHbALEfdAgJwl2duxzh2hakTOPUwQUtXVIfIJPiGibelgNtJxquM0ygDk9asQxLUcM6/K4iBlaRLd6w8EuB3QRw81Ch4W4qKHu1exrKS9VJ46oD+6Mv92TaGOq6TvWgHkIrNr02AvNtmhuiQBC266L8VxMCedG2888EhXCDVvLNugwwgG4pZW//ZdqpYtYYWv7LKFRa9tCLkPwVOhakTECxcwDJB0IFaSpWBD0i1OpvMwB719Xf7pC6emJikk2fO1RIsCcJeAkLMJAEVF2aFtde4AY60+IMISGGj2XCAg+MEOIkUoRa+6mEELwO9vjNibN76hbQFexhs5jb84cStneyTSgz2X7tX95IgwIi2JgnPZ3f0h7y0ixT8QyaIK34mKhygr/qnj4UvLBdBQJub1wdWGHtzsRwDRaR6yOBDArc7gYlCeVD2fIXjn1+CCAJwq727Q6aWJABEPdbJTz1iw3PWDgggrmruebBUpDfkaaQ6N9j06efiLa1KAshCWvGygVvhqedeFWPk3jQtaAwcEvCqW2eTGfDnuZdXCh3qSrdDCEEA7timB0iwWk2Mj6MCtUhMljjd6fS0BQiCV9jp0bV5hdMYbqDrbwctQQykMxDANZIVWs/MoOooPyVa1E/tCB+2BKnAH0emdM4MHBgMquvgF8fww+f1FZ/4fSL3p/8zXBPUjpMBg/4BoIj0Xf9jymMAAAAASUVORK5CYII=" SearchSteps="Selector, Image" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+              </uix:NGetText>
+            </Sequence>
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="449.6,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[TicketStatus]" />
+            <uga:WriteRangeConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="ActiveSprint" BrowserItemId="https://docs.google.com/spreadsheets/d/18di-J0Di74gRnldkJjHAT4ZeQ288_OLrgOK96prgYzo/edit?usp=drivesdk" ConnectionId="e1e38a6a-b4ba-ed11-ba77-0003ffe7e379" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="449.6,361.6" sap2010:WorkflowViewState.IdRef="WriteRangeConnections_1" IncludeHeaders="True" ItemSelectionMode="Browse" Range="AS" RowPosition="0" Source="[TicketStatus]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False" WriteMode="[UiPath.GSuite.Activities.Sheets.Enums.RangeWriteMode.Append]">
+              <uga:WriteRangeConnections.FileIdBackup>
+                <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID2" StoredValue="Browse">
+                  <usau:BackupSlot.BackupValues>
+                    <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+                  </usau:BackupSlot.BackupValues>
+                </usau:BackupSlot>
+              </uga:WriteRangeConnections.FileIdBackup>
+              <uga:WriteRangeConnections.Item>
+                <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID2}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/18di-J0Di74gRnldkJjHAT4ZeQ288_OLrgOK96prgYzo/edit?usp=drivesdk" FriendlyName="ActiveSprint" InputMode="Browse">
+                  <ugam:DriveItemArgument.FullPathHint>
+                    <InArgument x:TypeArguments="x:String">
+                      <Literal x:TypeArguments="x:String" Value="" />
+                    </InArgument>
+                  </ugam:DriveItemArgument.FullPathHint>
+                </ugam:DriveItemArgument>
+              </uga:WriteRangeConnections.Item>
+              <uga:WriteRangeConnections.RangeWriteModeBackup>
+                <usau:BackupSlot x:TypeArguments="ugase:RangeWriteMode" StoredValue="{x:Null}">
+                  <usau:BackupSlot.BackupValues>
+                    <scg:Dictionary x:TypeArguments="ugase:RangeWriteMode, scg:List(x:Object)" />
+                  </usau:BackupSlot.BackupValues>
+                </usau:BackupSlot>
+              </uga:WriteRangeConnections.RangeWriteModeBackup>
+            </uga:WriteRangeConnections>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="0f654f3ef0ff4e4a61249086181c8130.jpg" Selector="&lt;html app='chrome.exe' title='[QIP-5492] [US] [Routing registry] Implement rules and constraints for the connection logic of canvas area shapes (canvas area) - JIRA' /&gt;" Title="[QIP-5492] [US] [Routing registry] Implement rules and constraints for the connection logic of canvas area shapes (canvas area) - JIRA" Url="[BaseUrl]" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

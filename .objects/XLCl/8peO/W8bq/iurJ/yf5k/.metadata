@@ -1,0 +1,13 @@
+﻿{
+  "Id": "yf5k7TiytEy5L1T1TPnlNA",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/yf5k7TiytEy5L1T1TPnlNA",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/iurJM0XtS0Of3NqAR0axvg",
+  "Name": "Help",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Created": "2023-05-01T15:16:42.5516404Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-01T15:16:42.5516404Z"
+}

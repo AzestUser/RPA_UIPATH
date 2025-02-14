@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3EPkA4rrekSofXJuToBB5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="29, 107, 30, 30" DesignTimeScaleFactor="1.25" ElementType="Icon" FriendlyName="'Linked Applications'" FullSelectorArgument="&lt;webctrl tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='aui-icon aui-icon-small aui-iconfont-appswitcher' aaname='Linked Applications' check:text='Linked Applications' /&gt;" Guid="10d2fb09-662b-4e85-92c3-0ce9e57b1805" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFNSURBVFhH7Zc/SwNBEEf9ANb2tmJrEQRFECvFIlYiCEGwUhA7bdKIqZMqBAT/EMQYBMWgQVG4YExhhBTx44y8hQt3cwtyyOkWW7zm5s3Or9g57sbGJ3PiAj6IxgRZXNuW9mtX+oOvBB+DoZTKJ7GmerNldYFa1KWXM2wuM5mNZ4LkC/vS6X1aZaidN0cHz68W5PHlzeoBNZzQp9fmATOZjeeDgA+i+VWQmaV1aT0FVg+o4YR+qiATUwtyeFSRy5sHady2Y1RPG7KysTs6GLb2inJxfZ9weUYt6tLLGdplFjOZjWeCuIAPojFBpufycnZ1Zy6P5jnoyc7BcaypXKtL8N5PuDyjFnXp5QztAjOZjWeCpNma2eXNH9cXJ/QzW1//QgMfRBMNkulldWZ9XcAH0ZggznwGpNmaTD+M0gTxLzTwQTR/FsSZn/D/JyffFAjW+6MtKV8AAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IP Manager - Agile Board - JIRA' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9dbea731743b6ebb432d3c6e79004707.png" xmlns="">0h-5XJKV8REazv95zzpdU-Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

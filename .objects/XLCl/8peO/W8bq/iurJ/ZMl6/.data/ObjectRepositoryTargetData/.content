@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EnncGDRvxUugmCwoPtZAjQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1753, 838, 34, 20" DesignTimeScaleFactor="1.25" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;aui-badge' idx='10' tag='AUI-BADGE' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class=' ghx-statistic-badge' tag='AUI-BADGE' aaname=' ' /&gt;" Guid="68e53716-8282-4bc8-9a1d-15612dce94ea" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IP Manager - Agile Board - JIRA' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="385df70ecd5d9fa12afb5fc860ef9aa7.png" xmlns="">0e4ZWQHt7EkeL8LtJd_WBOw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

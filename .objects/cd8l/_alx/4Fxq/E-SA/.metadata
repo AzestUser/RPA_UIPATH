@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Test cycles",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "E-SALb2beU6EyT_grsV3sg",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/E-SALb2beU6EyT_grsV3sg",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/4FxqY6qxAUSxA2JakK4daQ",
+  "Created": "2024-06-12T13:49:32.6169325Z",
+  "Updated": "2024-06-12T13:49:32.6169325Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

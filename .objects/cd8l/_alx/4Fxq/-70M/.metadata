@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Edit selected",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "-70M15sI_ka9Ifs2a65nSA",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/-70M15sI_ka9Ifs2a65nSA",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/4FxqY6qxAUSxA2JakK4daQ",
+  "Created": "2024-05-21T08:50:30.5908989Z",
+  "Updated": "2024-05-21T08:50:30.5908989Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "TzdEQWNAV0-UuQQjJ7a2pA",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/TzdEQWNAV0-UuQQjJ7a2pA",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/iurJM0XtS0Of3NqAR0axvg",
+  "Name": "Administration",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Created": "2023-05-01T15:16:42.5893822Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-01T15:16:42.5893822Z"
+}

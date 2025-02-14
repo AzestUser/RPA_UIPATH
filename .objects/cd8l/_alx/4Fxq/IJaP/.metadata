@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT zephyr-scale-grid…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "IJaPLEtAdESDoeqjv9Q6hA",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/IJaPLEtAdESDoeqjv9Q6hA",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/4FxqY6qxAUSxA2JakK4daQ",
+  "Created": "2024-05-21T07:03:06.1675906Z",
+  "Updated": "2024-05-21T07:03:06.1675906Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

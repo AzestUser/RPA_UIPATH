@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lTwhC_CKE0G7eGQj_0MuDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases" CVScreenId="b8076fe1-376a-4f67-b6ff-41b9c751a782" CvElementArea="389, 277, 12, 11" CvType="CheckBox" DesignTimeRectangle="390, 253, 10, 10" DesignTimeScaleFactor="0.75" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='' aaname='' /&gt;" Guid="be2ed239-a7d2-409a-b092-aa9e6c482159" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b8076fe1-376a-4f67-b6ff-41b9c751a782" CvElementArea="389, 277, 12, 11" CvType="CheckBox" DesignTimeRectangle="390, 279, 10, 9" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='' aaname='' /&gt;" Guid="c19140ec-7d39-42db-86f9-fc352999f88c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABcSURBVChTY/hPJqBc4+vXr/9Pnz79/4wZM7DixYsWQ1VCAFzj+vXr/z969AjKwwSHDh36f+HCBSgPSePKlSv/v3v3DsrDBGfOnAFjGBhRGskOVbLjkVRApsb//wGE6rCg73Z5MAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ef8cbe8486c66b49cf83f32f1477ba23.png" xmlns="">0MW9A9Va6zEOOeoZXCKmovQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

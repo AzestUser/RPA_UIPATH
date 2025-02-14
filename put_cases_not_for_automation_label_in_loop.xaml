@@ -1,0 +1,540 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="put_cases_not_for_automation_label" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="735.2,4259.2" sap2010:WorkflowViewState.IdRef="put_cases_not_for_automation_label_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataRow9" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugade="clr-namespace:UiPath.GSuite.Activities.Drive.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugam="clr-namespace:UiPath.GSuite.Activities.Models;assembly=UiPath.GSuite.Activities" xmlns:ugsm="clr-namespace:UiPath.GSuite.Sheets.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.GSuite.Activities</x:String>
+      <x:String>UiPath.GSuite.Activities.Drive.Enums</x:String>
+      <x:String>UiPath.GSuite.Activities.Enums</x:String>
+      <x:String>UiPath.GSuite.Activities.Models</x:String>
+      <x:String>UiPath.GSuite.Activities.Sheets.Enums</x:String>
+      <x:String>UiPath.GSuite.Drive.Models</x:String>
+      <x:String>UiPath.GSuite.Sheets.Enums</x:String>
+      <x:String>UiPath.GSuite.Sheets.Models</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataRow3</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataRow4</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataRow6</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataRow7</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataRow8</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataRow9</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable1</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable2</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable5</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataRow10</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="put_cases_not_for_automation_label" sap:VirtualizedContainerService.HintSize="670.4,4194.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="DT" />
+      <Variable x:TypeArguments="x:Int32" Name="rows_number" />
+      <Variable x:TypeArguments="x:String" Name="number_of_updated_cases" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uga:ForEachRowConnections x:TypeArguments="sd:DataRow9" ConnectionAccountName="{x:Null}" Length="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="ActiveSprint" BrowserItemId="18di-J0Di74gRnldkJjHAT4ZeQ288_OLrgOK96prgYzo" ConnectionId="e1e38a6a-b4ba-ed11-ba77-0003ffe7e379" DisplayName="For Each Row in Spreadsheet" EmptyRowAction="Skip" HasHeaders="False" sap:VirtualizedContainerService.HintSize="608,1964.8" sap2010:WorkflowViewState.IdRef="ForEachRowConnections`1_3" ItemSelectionMode="Browse" Range="NotAutomate" ReadAs="Values" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ForEachRowConnections.Body>
+        <ActivityAction x:TypeArguments="sd:DataRow9, x:Int32">
+          <ActivityAction.Argument1>
+            <DelegateInArgument x:TypeArguments="sd:DataRow9" Name="CurrentRow" />
+          </ActivityAction.Argument1>
+          <ActivityAction.Argument2>
+            <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentRowIndex" />
+          </ActivityAction.Argument2>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="574.4,1651.2" sap2010:WorkflowViewState.IdRef="Sequence_13">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uga:ReadCellConnections x:TypeArguments="x:String" Cell="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="ActiveSprint" BrowserItemId="18di-J0Di74gRnldkJjHAT4ZeQ288_OLrgOK96prgYzo" CellValueType="Text" ConnectionId="e1e38a6a-b4ba-ed11-ba77-0003ffe7e379" DisplayName="Read Cell" HideCell="False" sap:VirtualizedContainerService.HintSize="512,288.8" sap2010:WorkflowViewState.IdRef="ReadCellConnections`1_3" ItemSelectionMode="Browse" RangeLocation="NotAutomate" Result="[DT]" UseConnectionService="True" WhatToRead="Values">
+              <uga:ReadCellConnections.FileIdBackup>
+                <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID1" StoredValue="Browse">
+                  <usau:BackupSlot.BackupValues>
+                    <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+                  </usau:BackupSlot.BackupValues>
+                </usau:BackupSlot>
+              </uga:ReadCellConnections.FileIdBackup>
+              <uga:ReadCellConnections.Item>
+                <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID1}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="18di-J0Di74gRnldkJjHAT4ZeQ288_OLrgOK96prgYzo" ConnectionKey="e1e38a6a-b4ba-ed11-ba77-0003ffe7e379" FriendlyName="ActiveSprint" FullPathHint="My Drive/AI_UIPATH/ActiveSprint" InputMode="Browse" />
+              </uga:ReadCellConnections.Item>
+            </uga:ReadCellConnections>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,1273.6" sap2010:WorkflowViewState.IdRef="Sequence_10">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome: Zephyr Scale - JIRA" sap:VirtualizedContainerService.HintSize="449.6,772" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="f11b5943-d83e-4d2e-b2b4-a93772694f56" Version="V2">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,523.2" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="f11b5943-d83e-4d2e-b2b4-a93772694f56" Text="[DT]" Version="V3">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases" CVScreenId="f2e5b665-7a83-48a1-8181-3bf57edbf63d" ContentHash="9TLJyy3ZuEaQe21icdcZEg" CvElementArea="1436, 213, 152, 26" CvType="InputBox" DesignTimeRectangle="1438, 215, 131, 21" DesignTimeScaleFactor="0.75" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='zephyr-scale-grid-search' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='zephyr-scale-grid-search' tag='INPUT' type='text' class='css-1cab8vv' placeholder='Search...' aaname='' /&gt;" Guid="6deec5ae-9aba-42ba-9c5a-fc8ac7814cf9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIcAAAAZCAYAAAAbiz05AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGWSURBVGhD7ZsxSwNBEIX9w5Zip5WkkTSiYBFs1EYrsRDBJiApYpEihYUQhHCFIkjUKCqsvIV3TJKdXCKGO8k7+Eh2Zm+vmI+ZK5KVoEuXc0U5hu8foZ89hN59JkROlANiDF7ewufXtxA5UQ5YkkqK5UZyCBfJIVwkh3CRHMJFcgiXQjnOL6/D6vp2ZKO2Hx6fnpP7fstN5zY+I5UT5TJVjrteP+w2TsPgdZjM/wWSo7pMlQOFq+8dT8iBNeK2mwB8R2xtcyeKhX2Nw7NwdHKRx3AmOxFyWCPPexGzzxLlUThWUCwWljEUk2t8Ys2cjVEidgbEt+oHI6MJclAw7Eenss8S5THTCym7AkSxHYKwu9j3E8Swl/fgHOTHR8j4WLlqtiVHRZhJDoJCN1udvPA2hyJzJFgpJMf/ZW45Wu3uyKggtvAoeKpzeGMlJQfPo3S4JyWlWByFL6R2fKBIiKNAdrSgiDaGIrKgVg6AvfY8yVFd5uocYrmQHMJFcggXySFcJIdwkRzCJcqhHxiLFFEO/TVBTJKFH9BxJNDdU/w/AAAAAElFTkSuQmCC" InformativeScreenshot="52bcf6700cb975ea0ec90fe32def63eb.png" Reference="uFQWybWshE2LWpv4ob8a7A/IJaPLEtAdESDoeqjv9Q6hA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V3" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click " sap:VirtualizedContainerService.HintSize="353.6,182.4" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f11b5943-d83e-4d2e-b2b4-a93772694f56" Version="V3">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases" CVScreenId="b8076fe1-376a-4f67-b6ff-41b9c751a782" ContentHash="lTwhC_CKE0G7eGQj_0MuDw" CvElementArea="389, 277, 12, 11" CvType="CheckBox" DesignTimeRectangle="390, 253, 10, 10" DesignTimeScaleFactor="0.75" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='' aaname='' /&gt;" Guid="be2ed239-a7d2-409a-b092-aa9e6c482159" InformativeScreenshot="ef8cbe8486c66b49cf83f32f1477ba23.png" Reference="uFQWybWshE2LWpv4ob8a7A/AJLfet80HkmQjDoKDF6ojQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="b8076fe1-376a-4f67-b6ff-41b9c751a782" CvElementArea="389, 277, 12, 11" CvType="CheckBox" DesignTimeRectangle="390, 279, 10, 9" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='' aaname='' /&gt;" Guid="c19140ec-7d39-42db-86f9-fc352999f88c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABcSURBVChTY/hPJqBc4+vXr/9Pnz79/4wZM7DixYsWQ1VCAFzj+vXr/z969AjKwwSHDh36f+HCBSgPSePKlSv/v3v3DsrDBGfOnAFjGBhRGskOVbLjkVRApsb//wGE6rCg73Z5MAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="WIMC7gGJL02FB9PEsBvarg" IconBase64="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" InformativeScreenshot="9795df392afad5406a298b27acff9949.jpg" Reference="uFQWybWshE2LWpv4ob8a7A/4FxqY6qxAUSxA2JakK4daQ" Selector="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" Title="Zephyr Scale - JIRA" Url="https://projects.qad.com/secure/Tests.jspa#/v2/testCases" />
+                </uix:NApplicationCard.TargetApp>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NApplicationCard>
+              <uga:DeleteRowsConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="ActiveSprint" BrowserItemId="18di-J0Di74gRnldkJjHAT4ZeQ288_OLrgOK96prgYzo" ConnectionId="e1e38a6a-b4ba-ed11-ba77-0003ffe7e379" DeleteMode="[UiPath.GSuite.Activities.Sheets.Enums.RowsDeleteMode.Delete]" DisplayName="Delete Rows" sap:VirtualizedContainerService.HintSize="449.6,341.6" sap2010:WorkflowViewState.IdRef="DeleteRowsConnections_3" ItemSelectionMode="Browse" Range="NotAutomate" Rows="0" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+                <uga:DeleteRowsConnections.FileIdBackup>
+                  <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID2" StoredValue="Browse">
+                    <usau:BackupSlot.BackupValues>
+                      <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+                    </usau:BackupSlot.BackupValues>
+                  </usau:BackupSlot>
+                </uga:DeleteRowsConnections.FileIdBackup>
+                <uga:DeleteRowsConnections.Item>
+                  <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID2}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="18di-J0Di74gRnldkJjHAT4ZeQ288_OLrgOK96prgYzo" FriendlyName="ActiveSprint" FullPathHint="My Drive/AI_UIPATH/ActiveSprint" InputMode="Browse" />
+                </uga:DeleteRowsConnections.Item>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uga:DeleteRowsConnections>
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="449.6,48" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                <ui:CommentOut.Body>
+                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="512,662.4" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Zephyr Scale - JIRA" sap:VirtualizedContainerService.HintSize="449.6,573.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" ScopeGuid="2de1d762-eaf4-4b8f-b034-1bcdaf740f50" Version="V2">
+                      <uix:NApplicationCard.Body>
+                        <ActivityAction x:TypeArguments="x:Object">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,333.6" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Test cycles'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,243.2" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="DebuggerApi" ScopeIdentifier="2de1d762-eaf4-4b8f-b034-1bcdaf740f50" Text="dt" Version="V3">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable BrowserURL="https://projects.qad.com/secure/Tests.jspa#/reports/traceability/matrix/form?mainTagId=traceability&amp;projectId=26975" CVScreenId="30451dda-ce97-477f-9ab7-4012dddcc2dc" ContentHash="wIPaZtY4FEmkSHy_SQtPtA" CvElementArea="41, 571, 1862, 37" CvType="InputBox" DesignTimeRectangle="50, 577, 225, 25" DesignTimeScaleFactor="1.125" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;reports-form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;reports-filters&amp;gt;div&amp;gt;reports-form-section&amp;gt;div&amp;gt;div&amp;gt;reports-filter-test-run-condition&amp;gt;div&amp;gt;reports-form-section&amp;gt;div&amp;gt;div&amp;gt;reports-form-box&amp;gt;div&amp;gt;reports-filter-by-generic-option-value&amp;gt;div&amp;gt;reports-filter-by-list-options-input&amp;gt;div&amp;gt;tags-input&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl class='input ng-pristine ng-untouched ng-valid ng-empty' tag='INPUT' type='text' aaname='' /&gt;" Guid="6cf88f8a-04f9-4ffa-86c0-f04b7d4d402d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOUAAAAdCAYAAABVCKtiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABxSURBVHhe7dMhAQAwDMCw+fc7vJOLKEhIFXR294CO+QUiTAkxpoQYU0KMKSHGlBBjSogxJcSYEmJMCTGmhBhTQowpIcaUEGNKiDElxJgSYkwJMaaEGFNCjCkhxpQQY0qIMSXEmBJiTAkxpoQYU0LK3QP29WIoWohkJAAAAABJRU5ErkJggg==" InformativeScreenshot="c66cd2b1a6557265bb2e8bb6ee1dc474.png" IsResponsive="True" Reference="uFQWybWshE2LWpv4ob8a7A/7c0suMYnwU6LAgOSHwexeQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V4" Visibility="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="30451dda-ce97-477f-9ab7-4012dddcc2dc" CvTextArea="43, 540, 85, 20" CvTextArgument="Test cycles" CvType="Text" DesignTimeRectangle="46, 537, 89, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Test cycles' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Test cycles' tag='SPAN' type='' class='ktm-reports-title ng-binding' check:innerText='Test cycles' /&gt;" Guid="7edea2bb-dd96-4924-9c40-a85d2a3e768d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF0AAAAaCAYAAADVLFAXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAASiSURBVGhD7VdBaxpbFH57f4VLl9l1U7orgSxCoLhwEQJFCfSJUCKVoBAhCMZCEBcDMRTiIwulvBAhRJDSSCTYQJEUXi0JRCTFGhBDBNffO3fuXL0zzsiEx8vE4uIDvffcc8/5zrnnnPljMBhghsfFjHQHMCPdAcxIdwAz0h3AjHQHMCPdAcxIbxXhff4GrrdFNM32/wdw0sXFExFHrjWuYOrhGOk/ywi/jmBeYIkT7V6S1l5v4/DnuIIH49cFcsoWFmOP5+REOEa6Ac2DuEq696A5tvefca7wl/OITk7EjHQH8PRJ76J+pCDgC3HiFtbgTRZRv5Vkbi9QSCfwYoH2NZnAwSXtNZF7q63poKCiu8MATZ8oea6XIcy//4zmaQZu9n+MrHuU3jPZNaTq2lq/w+1eCfEzhLmVDA6Z3Vak929Q2aMyKJXaQLaKZl/I3JMN+wiuSjpXd1GSubDAA0jvopJeU9fnYwpSyi5SyTg87ELfHmrMmP4FUj5ugJCJbkTgSX+h8x1U8nRmI6buu14lEGU6lDIa0t06XBcR0ILnXoojrN5JAWD94K6K6Eu2Z2jwd58RVvULm5oorGtJQgFbTrI7MxSALRTYOTPS6UwuzHSHKKmYPPkRi6jkumNltEmmXdriZC9odpHO5aWErWHDNuk9KgvP2NpHffbXsjwQ4ZP7kQN//q0jsn3bHZ2xXV46OIwxx99gMfsVPRMZcbfOzpMMP5Nnr0six09B6I7rMCOd+7+G6JlkN9lTWGf2RLDzY0AJyG2Lnol9Ar2o9p303wK2Sa8p/BIrqLLD7KMMSRdRuaZASHpV2CX9towgkxMZayZzlccik1k/VrNvFKgECr/k/1KpMWKM9BsU1Cy3xub5AI08f7FuejGZT9/RtrLRBLZJF5EN/FVF6XQcNY3g3j9FhP3acyZ4/BkUriTy7ZJuVWt1ENmnkSwCNQyC6CMTvjHG7hFnIogemftaZ3exmp+NY05NMgIrXXtfbZH/cNKPOjpZK/SuqQEqMf60X1GzFM/uoaSzTDfb19DTGiqzi5USpjt6KoIsCKRM/zZ+VoUl6RNehwzWpE/zCGq9TObMCrZJFw65fESgXBvp0lqJujr73bpEQxfpS+ysMmOkTBOkG+r+OOisnzuy/JHXZ1OIkhbLY4eVEkM5GpaBMN1nloUmL6r2gfcKd7ioP9O/RKH8nX530LgyJB8FX/VLHRqkdRPYJn3U0QkLEQS3RceWDGaEDvdGHd/lz4+MF04S2IQTJbKsMrl3vot57fl6fAn99CLJiYbK8Iyarqxj0P2CzRW+p46vdqYXdkbL3OHUtE3jI5ukVFL5a5gLZ1Q/mT6vNmWFT+Tmaw77pDNQHStlDTPzOwWFb1rUW1VsvosM65w626aPUTdMDY1ShjtAMh7f/sTywXSmjDo/UO2UZURDfR7DzpW0LmBq9x4qk+Z0+j7I0Ugsf294N/ZRarHSdY9afgte8b1Cg8OLEDXUs5vR+QkwJX3q8MM4xTxt/Aakd1FK8mwMlu01eacxvaS3jrGZVBDUxlPW9HTl4QljiknXajFrjtnqgz5OnMbvUdOnCgP8Cx5Lw9037fUWAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NTypeInto.Target>
+                            </uix:NTypeInto>
+                          </Sequence>
+                        </ActivityAction>
+                      </uix:NApplicationCard.Body>
+                      <uix:NApplicationCard.TargetApp>
+                        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="WIMC7gGJL02FB9PEsBvarg" IconBase64="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" InformativeScreenshot="9795df392afad5406a298b27acff9949.jpg" Reference="uFQWybWshE2LWpv4ob8a7A/4FxqY6qxAUSxA2JakK4daQ" Selector="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" Title="Zephyr Scale - JIRA" Url="https://projects.qad.com/secure/Tests.jspa#/v2/testCases" />
+                      </uix:NApplicationCard.TargetApp>
+                    </uix:NApplicationCard>
+                  </Sequence>
+                </ui:CommentOut.Body>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:CommentOut>
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uga:ForEachRowConnections.Body>
+      <uga:ForEachRowConnections.ColumnNames>
+        <x:Array Type="x:String">
+          <x:String>Column A</x:String>
+          <x:String>Column B</x:String>
+          <x:String>Column C</x:String>
+          <x:String>Column D</x:String>
+          <x:String>Column E</x:String>
+          <x:String>Column F</x:String>
+          <x:String>Column G</x:String>
+          <x:String>Column H</x:String>
+          <x:String>Column I</x:String>
+          <x:String>Column J</x:String>
+          <x:String>Column K</x:String>
+          <x:String>Column L</x:String>
+          <x:String>Column M</x:String>
+          <x:String>Column N</x:String>
+          <x:String>Column O</x:String>
+          <x:String>Column P</x:String>
+          <x:String>Column Q</x:String>
+          <x:String>Column R</x:String>
+          <x:String>Column S</x:String>
+          <x:String>Column T</x:String>
+          <x:String>Column U</x:String>
+          <x:String>Column V</x:String>
+          <x:String>Column W</x:String>
+          <x:String>Column X</x:String>
+          <x:String>Column Y</x:String>
+          <x:String>Column Z</x:String>
+        </x:Array>
+      </uga:ForEachRowConnections.ColumnNames>
+      <uga:ForEachRowConnections.FileIdBackup>
+        <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID0" StoredValue="Browse">
+          <usau:BackupSlot.BackupValues>
+            <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+          </usau:BackupSlot.BackupValues>
+        </usau:BackupSlot>
+      </uga:ForEachRowConnections.FileIdBackup>
+      <uga:ForEachRowConnections.Item>
+        <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID0}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="18di-J0Di74gRnldkJjHAT4ZeQ288_OLrgOK96prgYzo" FriendlyName="ActiveSprint" FullPathHint="My Drive/AI_UIPATH/ActiveSprint" InputMode="Browse" />
+      </uga:ForEachRowConnections.Item>
+      <uga:ForEachRowConnections.RangeMetadata>
+        <ugsm:RangeMetadataSlim ColumnStart="1" RangeType="Range" />
+      </uga:ForEachRowConnections.RangeMetadata>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uga:ForEachRowConnections>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome: Zephyr Scale - JIRA" sap:VirtualizedContainerService.HintSize="608,1975.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="f11b5943-d83e-4d2e-b2b4-a93772694f56" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="513.6,1726.4" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'More'" sap:VirtualizedContainerService.HintSize="451.2,189.6" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f11b5943-d83e-4d2e-b2b4-a93772694f56" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases" CVScreenId="4be4baa8-44cb-4836-a5c2-a0c61d9b6326" ContentHash="-lnMPDPsZ0KMVzp21ZXqaA" CvElementArea="614, 212, 62, 28" CvTextArea="624, 220, 28, 11" CvTextArgument="More" CvType="Button" DesignTimeRectangle="625, 214, 26, 24" DesignTimeScaleFactor="0.75" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='More' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='More' tag='SPAN' type='' class='css-17wby6x' check:innerText='More' /&gt;" Guid="470cbac2-e690-4537-bcba-50099766f7cc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHrSURBVEhL7ZP/SxNxGMf3hyURSv1Q1CAoRoStlWJQlC38FjVrIAWySP1FU0RoMPtpEbGiRBx9sSiZjaX+oJWbu7t2bbfl5unt3u558tYO50/hrR928ILj+Xx5Pc9zz9lQo6d2YikL1IK62DLqYsv4P8QdD2U0tSYwPaeaNgVn8mg4H8fgZNYU/xd2iY9cWoNnOA1R+RNLpnXceCDjoGufxd7RNE53Coh91zg2+3UTrl4JLV6JxZTQk9frOHZljbtwpkfEx4VNfJN0XLgrwV1KsrHUtWA4j3dRFac6BN5Hdxh3ErvE/he/4fRICLxa51j/YwX3JzK8RmL6DMevJjH1eQOrKR09Q79w7raI2A+NxZ0DMsdXxCLa+n7yPkp2IKDgzkh6bzFl+iiY40PRlS003xJZZogJElCFdGbq0wbs7UmEIyrH6TzF33xRcbTUlRPXkrDvcN0nl11VxZHlLTi6BPj8Ci7fS3EFe4nD8ypOuoWq4rM3RSzG/7a3kqpiak3XoIxDFxPllhvi0PsCV1LZakpuKV40iUno6BYx/iwHIWOWElXF9P78bYEroeqNNRJTUmNPczjcljANjTFcxnni5YcCz8MBZ5wHLjRbKK+ZxFZSF1tGXWwZNlHRS/+m9dh0XUctsGmaBuvRsA23SkxHzH4VXAAAAABJRU5ErkJggg==" InformativeScreenshot="2b7124f8454bc8035bfab646133059d3.png" Reference="uFQWybWshE2LWpv4ob8a7A/8YFeB7qEZEqxNB-0Z51nFg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="4be4baa8-44cb-4836-a5c2-a0c61d9b6326" CvTextArea="624, 220, 28, 11" CvTextArgument="More" CvType="Text" DesignTimeRectangle="616, 214, 59, 24" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='More' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='More' tag='BUTTON' type='button' class='e1kb91rq0 css-57901k' check:innerText='More' /&gt;" Guid="9a0a3e63-9045-41f0-9f32-ee15988049a7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAD8AAAAcCAYAAADWZ2dHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJjSURBVFhH7Zjda9NgFIf3h01EFL1QdCgoQ8TNqWOCom6yzYlOnYiCTNx24xciOJheVUSmqIjFjykq0zI/LtzUdm1iY5d1W5s1yc+eM09p9ZWxQEGS/OCB9uQk6fO+p7lIDQKcUJ5i2YAxA+jT/oX8yFNSkve7uECekpK8qtGvSEJ5iqrJr0hCeYqqya9IQnmKqklF+wUDq5oTePzWqqhHnsxh2Y44+m9OV9T/RySe5NfsmUT3xQw0c6GWzLg4dN7A8qYAyPdcyWBLRwpjX22ujXyYR9NxHbt7dJanRbn1cBbr9k3yNGzt0vDq4zwmdBc7T+poKy7UyuL0RKJzeB6zsLk9xX10DblmNZF4kh+8N4PGbh1DD2a5du6GibPXp/gYydNfYv3+JB69yeN72kXXwE80HNMw9s1m+Y4+g+vjmoOW0z+4jxasb8jEiUuZv+5ZTvOpYv/rPLOxNansWQyJJ3nascuRLP/w2HgB249qLCzyBEnSTtM59EPrDiYRHbW4TudT/el7C2uL07HhQBJ1v2ntNSru9yexCZulaxvifF1Vz2JIPMuPfimgvjOF3kETe8+keSf/JR99Z2FTW0opv+2Ihk/xpY06LYBXcULiWZ7GtLPfwIpdidL4i/zwixzvaPnY0wJ9jjsV8iRdf1jDtTtZpKbU96sGEs/y9PnusxzvKE2BHCN5Wpirt7NY3ZKoeJDJA0/OJ+6/zPHzobYxzg/B4ZFc6Vi1kCxZ3g9IQnmKqsmvSEJ5iqrJr0hCeUqgX2CWv7rWTNeXpLMu8gUXrrtASV4KQaKm/IvjOIxt2wHAxi/DakqQxq6OdQAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Edit selected'" sap:VirtualizedContainerService.HintSize="451.2,189.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f11b5943-d83e-4d2e-b2b4-a93772694f56" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases" CVScreenId="e8ed87e1-1c9f-4f87-92b8-1a93bebddd3a" ContentHash="YdBYphuMO0S4c2q5mb5Wxw" CvTextArea="624, 300, 143, 11" CvType="AnyWordGroup" DesignTimeRectangle="616, 293, 181, 26" DesignTimeScaleFactor="0.75" ElementType="ListItem" FullSelectorArgument="&lt;webctrl aria-role='menuitem' css-selector='body&amp;gt;div&amp;gt;ul&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;li' idx='2' parentid='jira' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='menuitem' type='' class='szh-menu__item css-833q4y e1kb91rq3' parentid='jira' tag='LI' /&gt;" Guid="fda3dd13-44b4-41f0-9551-0ae06ca179c1" InformativeScreenshot="bb24eb47b7b689932b3565ddc15ad1d5.png" Reference="uFQWybWshE2LWpv4ob8a7A/-70M15sI_ka9Ifs2a65nSA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="e8ed87e1-1c9f-4f87-92b8-1a93bebddd3a" CvTextArea="624, 300, 143, 11" CvTextArgument="Edit selected test cases in bulk" CvType="Text" DesignTimeRectangle="624, 300, 143, 11" ElementType="Text" Guid="2cbd76e3-b70f-4e21-baa0-0c4662fb8b2b" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Labels'" sap:VirtualizedContainerService.HintSize="451.2,189.6" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f11b5943-d83e-4d2e-b2b4-a93772694f56" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases/bulk-edit" CVScreenId="d11b6cc6-e08e-4c8c-a5b0-7dfba50c9b75" ContentHash="lJJ-5xPm-kq-m0jnXxqMGg" CvElementArea="563, 779, 16, 16" CvType="CheckBox" DesignTimeRectangle="566, 783, 11, 10" DesignTimeScaleFactor="0.8999999761581421" FullSelectorArgument="&lt;webctrl parentid='labels-label' tag='g' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='labels-label' tag='g' type='' class='' aaname='' /&gt;" Guid="6f25bd2f-ac69-4d4e-a559-2db742f34f3a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACKSURBVDhP7ZLLDoIwEEX9/59ENBRFEggNWLF69ZSHbpy4dOFNTtLMzGm7mI3e0vleTds98R8ZzmGella5KE/KcvcVXEKSzIsUq7pJZ4t8f9B253RfZL6KTHO8RpPyWKfZGG+L7P+ywQ/JrBwFFoCmBXOFq9AmmfA6m0PTAjGES3JWmbByfMfiFekBg7AopfQfRi8AAAAASUVORK5CYII=" InformativeScreenshot="030462659df4069ef93d26c4d7cd483b.png" Reference="uFQWybWshE2LWpv4ob8a7A/AIC31YQOMU-CY7_oyb8ocQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="d11b6cc6-e08e-4c8c-a5b0-7dfba50c9b75" CvTextArea="585, 782, 33, 11" CvTextArgument="Labels" CvType="Text" DesignTimeRectangle="583, 781, 34, 14" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Labels' parentid='labels-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Labels' parentid='labels-label' tag='LABEL' type='' class='css-uyhpc epn9qlk0' check:innerText='Labels' /&gt;" Guid="cdfdc021-173d-41ec-b8bd-ef0b015ebd80" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACYAAAASCAYAAAA31qwVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGuSURBVEhL7ZOxa8JQEMb71zm56CIukYKTSDKkVJAMFUkpHaRDBkOx4uJQC0GolA4VEaEUEYViQNolUETBJSgpSuDre0nUaLWSqaXkg0fe3Xt3+V3ucoQ/Kh/Mq3wwr9oL1pVZBOSeY/2g8SO4UAFdxzysEaopFtKB1P8DbNouIR4j/hCLcFqB+kmcDthdQwITIWdREUXVsANmfRTTPILkfjCZR31InW4wA29KDpGonVN6pT5bnsDmuo65SXcG6hcshIbugKWQa5M9FtAUEYFYGaq5QOtq6SdFdQoIZ5uYusEmNDaPFyvnpry18qMJ+VwEc5xCkFTJ1UbfW2nZIqrjHqQQj0hCALNaFahuMHMAOc6CyVZQ1+wClvIARpLEMii+LyyLnu8EG94jEbpEdULB6NPxr7Q1Y+YE3VoBCVKo1QFHHsBcL5qRPal0DZaC1KFJDailDAKcAg06Hs7InfIA041W7R5+TckgeN13rENgZCBXS+5AvRXtQT6pQCYztgaTIN0IW0NONHlGLsnb8REewhOtyj1jdZzSH4ach7kCWq6vuxfst+WDeZUP5k3AF0GLAQjE6fceAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Labels'" sap:VirtualizedContainerService.HintSize="451.2,189.6" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f11b5943-d83e-4d2e-b2b4-a93772694f56" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases/bulk-edit" CVScreenId="44b9ebab-b47d-40bf-bf14-8881caac752c" ContentHash="bsTEzYJUnEy9WCMqKrRCrg" CvElementArea="558, 711, 542, 38" CvType="InputBox" DesignTimeRectangle="1073, 720, 22, 22" DesignTimeScaleFactor="0.8999999761581421" FullSelectorArgument="&lt;webctrl aria-label='open' aria-role='img' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='open' aria-role='img' type='' tag='SPAN' class='css-snhnyn' aaname='' /&gt;" Guid="34ef47b4-4dc6-43ce-a2a9-c19eb39e4d5c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACASURBVEhLY/jy9ft/euBRi8jGoxaRjUctIhsPLova+xf9j0mr/3/vwTO42IkzV8FiIBpZLS5MlEWbth/+7xaYB7cMZDiID8LIluPDRAfdnMWb4JbBLCHWNyBMUhzBLCPVEhAmOTGAgpHY4ELGJFtELh61iGw8ahHZeNQiMvH3/wDy9RxuArttxwAAAABJRU5ErkJggg==" InformativeScreenshot="1cd8d0ec748357dff1cb7bd5958fbb8a.png" Reference="uFQWybWshE2LWpv4ob8a7A/VuOtv6MG40GZqIoNefeGWg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="44b9ebab-b47d-40bf-bf14-8881caac752c" CvTextArea="586, 689, 31, 11" CvTextArgument="Labels" CvType="Text" DesignTimeRectangle="583, 688, 34, 14" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Labels' parentid='labels-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Labels' parentid='labels-label' tag='LABEL' type='' class='css-uyhpc epn9qlk0' check:innerText='Labels' /&gt;" Guid="38c843d1-9c6c-45a6-b73c-170198746b34" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACYAAAASCAYAAAA31qwVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGuSURBVEhL7ZOxa8JQEMb71zm56CIukYKTSDKkVJAMFUkpHaRDBkOx4uJQC0GolA4VEaEUEYViQNolUETBJSgpSuDre0nUaLWSqaXkg0fe3Xt3+V3ucoQ/Kh/Mq3wwr9oL1pVZBOSeY/2g8SO4UAFdxzysEaopFtKB1P8DbNouIR4j/hCLcFqB+kmcDthdQwITIWdREUXVsANmfRTTPILkfjCZR31InW4wA29KDpGonVN6pT5bnsDmuo65SXcG6hcshIbugKWQa5M9FtAUEYFYGaq5QOtq6SdFdQoIZ5uYusEmNDaPFyvnpry18qMJ+VwEc5xCkFTJ1UbfW2nZIqrjHqQQj0hCALNaFahuMHMAOc6CyVZQ1+wClvIARpLEMii+LyyLnu8EG94jEbpEdULB6NPxr7Q1Y+YE3VoBCVKo1QFHHsBcL5qRPal0DZaC1KFJDailDAKcAg06Hs7InfIA041W7R5+TckgeN13rENgZCBXS+5AvRXtQT6pQCYztgaTIN0IW0NONHlGLsnb8REewhOtyj1jdZzSH4ach7kCWq6vuxfst+WDeZUP5k3AF0GLAQjE6fceAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'not_for_automation'" sap:VirtualizedContainerService.HintSize="451.2,189.6" sap2010:WorkflowViewState.IdRef="NClick_20" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f11b5943-d83e-4d2e-b2b4-a93772694f56" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases/bulk-edit" ContentHash="WkIzHnIcfE2Z6_fKMDV3WQ" DesignTimeRectangle="561, 885, 523, 29" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='not_for_automation' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='not_for_automation' tag='DIV' type='' class=' css-rz73v4-option' check:innerText='not_for_automation' /&gt;" Guid="ec7a6c81-3738-4f64-8a63-2471ec1f5695" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAg8AAAAhCAYAAABeHEjNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAMNSURBVHhe7dk9UttAGAbgXIQL0OUeoc8JoEvHLaioOAU0HAMKipT0DJ1n4kmpWKuVtas/tLYZO8PzzHwz3rWkXav5Xkvf1ut19fr6Wn3/8VT9/PW7+rP+q5RSSik1qNVqFUp4UEoppdSiGoQHAIA5wgMAUER4AACKCA8AQBHhAQAoIjwAAEWEBwCgiPAAABQRHgCAIqcfHt4eq8vzi+rs/Lp6eItzX9T7/XV1dvVYvccxABzD8cLD892iRvh0c1Fd3p9Aali434M6xpoA8IH/IjzcPsfBMQkPABDsFx7CK4W76qlucuHVQv8pwUt1G+dD3byE2fD4PZkfDwdv1cNVcm7bRLevMZpK12ueUjw2a8403fq4wXXjfLaX+ndt9jy133w+fa1S/+7N+L67L+Gc5D6l64ztZ2zNMBfvYe3D9Z+Te5WcBwD7OEB4SBpTGLdNrGn+w+Yexwv/VecNvQkj3bhZox03TXgTZprhhM01to003+NUeNh+TvcbgkCyVhukwiCGpvTcwTg5dmI//TWz8LBk/e25/fsGALs7zJOHOGybX2hSvcYX1Me3c2Pfj0gbev+fd1BfJ85l4WSh+prl4SEPLa3u/LpZjzwJmBx30v3071H3+0vX3+3eAMCYA4eHpIGljXerbmrx+F5jnJI29KyxtpJAsrRBhiZc/zOPtVt4GDb/bn9l4WFqP/PhoWT99DsA2M/nhod+ODiBJw/9a6RNtSw89I7d6M5fHh7m9tO/R92x5U8esusCwB4+LzyEBpY386y57xAemvXSppk30ez6E/JjmvPbcd7Im/2Ph4d4bPrbs3sxHRYa3XhuP9PhoXR94QGAw/nE8FCLDThW3ryaRlnPd8cP5dfbiAGivWb63ZLwkO/purq9SZtq+t3md9XNexsmhvttGnhyfDO90W/ec+O5/eRrpuGhtnx94QGAw9kvPAAAX85JhIf8H3SsBa805nzGNQEATx4AgELCAwBQRHgAAIoIDwBAEeEBACgiPAAARYQHAKCI8AAAFBEeAIAiwgMAUKQJD6vqH2VAyKvrCgZBAAAAAElFTkSuQmCC" InformativeScreenshot="c7db7e8bf970d8b71efa42beaa0b699d.png" Reference="uFQWybWshE2LWpv4ob8a7A/gTIoyYAr80W3UDChipSvlQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, Image" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="561, 849, 540, 202" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='14' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class=' css-81ncy7' tag='DIV' aaname='' check:innerText='ready_for_automation&amp;#xA;not_for_automation&amp;#xA;automation_needs_update&amp;#xA;needs_update&amp;#xA;clarification_needs' /&gt;" Guid="5532c557-8fb2-4a79-9040-5c1aec13ce8d" ImageBase64="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" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:CommentOut sap2010:Annotation.AnnotationText="disabled activity" DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="451.2,411.2" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,269.6" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ready_for_automationnot…'" sap:VirtualizedContainerService.HintSize="353.6,180.8" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f11b5943-d83e-4d2e-b2b4-a93772694f56" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases/bulk-edit" CVScreenId="44b9ebab-b47d-40bf-bf14-8881caac752c" ContentHash="DLmeZz1V4k2ldMzNcX0rNw" CvTextArea="585, 760, 274, 13" CvType="AnyWordGroup" DesignTimeRectangle="561, 792, 523, 29" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='ready_for_automation' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class=' css-363ehx-option' /&gt;" Guid="426c7a37-8f7e-4493-88a0-d2d48f7b7619" InformativeScreenshot="2b05d61a46bbf87ccf55c5cd7c0f04e5.png" Reference="uFQWybWshE2LWpv4ob8a7A/Jhd2xSBvnkWAFQJrbS_ojA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="561, 756, 540, 270" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='14' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class=' css-11wjbfv' tag='DIV' aaname='' check:innerText='ready_for_automation&amp;#xD;&amp;#xA;not_for_automation&amp;#xD;&amp;#xA;automation_needs_update&amp;#xD;&amp;#xA;needs_update&amp;#xD;&amp;#xA;clarification_needs' /&gt;" Guid="58d0e7a3-86a0-49cb-9b23-827aa6157787" ImageBase64="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" SearchSteps="FuzzySelector, Image" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </ui:CommentOut.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:CommentOut>
+            <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'Replace existing labels'" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="NCheck_2" ScopeIdentifier="f11b5943-d83e-4d2e-b2b4-a93772694f56" Version="V3">
+              <uix:NCheck.Target>
+                <uix:TargetAnchorable BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases/bulk-edit" CVScreenId="b43642e6-ebb3-412f-86f7-4db1f7e7ec59" ContentHash="KRcmxcIJd0a3Sn950IFFWQ" DesignTimeRectangle="714, 761, 12, 12" DesignTimeScaleFactor="0.8999999761581421" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl idx='2' tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl class='css-1v4ose0' tag='INPUT' type='radio' aaname='' /&gt;" Guid="2d026c65-3c8c-4d91-a7d8-7d7a1786f152" InformativeScreenshot="4d2b47f74e3347f5dd075eda2902ff6d.png" Reference="uFQWybWshE2LWpv4ob8a7A/pGjb7Nvd-EuS4T9wW2vTaw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="b43642e6-ebb3-412f-86f7-4db1f7e7ec59" CvElementArea="710, 757, 18, 18" CvTextArea="734, 760, 125, 16" CvTextArgument="Replace existing labels" CvType="RadioButton" DesignTimeRectangle="709, 756, 153, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;label' idx='8' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='css-1kddo3z' tag='LABEL' aaname='' check:innerText='Replace existing labels' /&gt;" Guid="8dfa8047-4f9e-4c34-9d2d-47e5e7753c5c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJ0AAAAaCAYAAACtk162AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAQ5SURBVHhe7ZhZUuMwEIbnChyAy3AQnnngKHkI5+DF56AqXGFmYMgCQwiEbQKDxr/WVru9ACmTTPVXpSpbarXVrV+S7W9GUXpGRaf0jopO6R0VndI7Kjqld1R0Su90Ft3r61+zvH80N4ulLfcPT+bt7c23Kkp3Oonuen5rvv8cV8qPs4lZ3C69laJ0o1V009m1Fdiv8aWZL+7sbocCIZ6dT23b7+uFt/4aZsWh2Rme+rvN4WS4985xnZrB7p4ZjPztWoDPQ3M89rc1fDSHH+nXKLqww82ubszq5bVSnv+szHj629rcLR98rxZGR2anTCwtn03ypoqunYk5Pli3yDhbJDq8w4UdThJcKE/PK3vMnl/MfM8WIDo6yHFh9nePzIm//Qgquia2SHQ4QiE6HKmS2Gi5LHdC2GLna4WLziY+JcUGEXZBYoejar84tZPk2lkfZht9HBQmLQc3yaFtv5j4enescb9VJDtXF4VjF5Frc2P2z7D1oS8WGfVVFjtOKhB/PSL92OTSOAcj2EuLl/pk+SX2IYe5T99ooeNl/uK4ZBtOrejwhQohQXyS0GiZe9uH8ou2FS463Adh0OsSOmkuGSQQ2PqkVQKP105kzge9BqWASX0uGmnyGuzIuPmY3XU+8QnmM7PzExjz4e6DrbzQ2kRXPm+Y5zf4CGLM4yP9amJP4+Cx1LMm0d050T12FF1cDSlocdCw9e10Mh3Jnk8ABW22HxJFBB1hQnd+BYG02GF8gyJ/Rhpz3YTwei66fBzJX7XN1bWJjkHyK+UwPq8hdtqvOkcytaLDfzgICR8TktBomV7Ore1q9eJ7N0AClVZTJkgUH6wUEOok0dl74iMmjiXVgnpiG0pFIG12WSyOfMyYfO77faKLC0gUmFQHmB8eh8+JJLr4vIbY835pDvlcUWpFhx+/+EDAbxG8q0liQ7kvdzcI7mJy5Xu2wCY/DTqtHomq6OTVxpOXJS5brR42nlpa7OwCGObPkBZKLoLPiI7lihx5OcSW54DExPMGwqJuil3qV40rp1Z0AD9+ISj8FsFXqiQ4fLXao7XL+xyoBJAGaAOQhFGCBFRefL0tDTyfaOc7TRRtC+90rr4uQYkGuziZebJl0VEbPjlUTPTagTiDP5sPkkeen0TywwVCfdg2+jzEFP3Vx859BuTYHY2iA/jxC1Fh18NXKj4a8A4XjlSURVnXGWnV2ABdwC55qeQTWNjgXRsTYPTpEuRsDsvdJ01U3kaSaHeJVF8nfNGOH6vkPiU+f242GTZ274sIhIolQEUXBBt8dvt6ZX2wM1PRlR8ZqT1/dl2OUu5z35IQA62iA/jxG3Y0WnCkdt7hPknTylFKIIq6xbJhdBJdAO92EBm+Ujt9NKwRFV0TbpfZlvy8S3RfiYouB/mIR1nLcbZpbI3olP8HFZ3SOyo6pXdUdErvqOiUnjHmH0jBSlTRl5jAAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheck.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheck>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f11b5943-d83e-4d2e-b2b4-a93772694f56" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases/bulk-edit" CVScreenId="1772b768-5348-48f1-ac5e-2247caa14f07" ContentHash="Rxkn6S83nECCpTb-gBDjNw" CvElementArea="1051, 962, 52, 32" CvTextArea="1062, 972, 29, 12" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="1052, 964, 49, 29" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ktm-multistep-next' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='ktm-multistep-next' tag='BUTTON' type='submit' class='css-1yeatxf' aaname='Next' check:innerText='Next' /&gt;" Guid="f8736fb7-a232-44ba-9be8-f6c44ea38796" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADUAAAAhCAYAAAB5oeP9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIiSURBVFhH7ZjNSsNAFIV9peJrBPc+QN0VXAc36qJuFBcuBMWFCLqRulEE0U1XFhFCEf9DIbUUtT+ElqSScrwzmZumpVq0gmnIgQMzmeTO/TJ3BpIpxFDxhqo1PjC//ITpmSuktMmxyFfkLfJnBVBiYNhDk2KRPyuAmrQVGrTInxVADbtx0sxKoKJuVgIVdbMSqKib9UsoC4WWeKoLY7/YN7ZmeHTdQS507Wc2kXv24Jbehox9b9aYUCSnhe10b2x8KBXb+i+oNxdlYrANC5oaG4Sa3Wui7Mgp6LKLwuEjUls2bOq6Ny9+vPUm3qn/flnvvSyl3pyjzRoPit5m5sKlhofCjl+GfVAqWfvuFYu6id0HMebiZKGI7buuat8jZ1GzZWNNK2JupQpDxK40oK+aA/N+b9bYUCntEedVaoukqAzDUNlr1ebyVCtknlI7XcVth7AqLl0L783/Lj+eeKmBMnVFGYah5AoMkXnmx8leiXtJlRpmv4r9A7P+BoqcyftlaFo9KAnotXEQOkgCq5Wy6+I7iMp3i8ciBBWUoZTaU6rc7FING7Q/9M0K8kYDWdo7ck912thNl5Cv0031JhZlHNPvO/QyVulQCeKPNusPocjqYAigKHn9uA2bVkTK69KhUYW+36IjQpx2JfmcdtSW/XLeh8icOXBVZfbFH2HWL6GiaVYCFXWzEqiom5VARd2sACqW//1i+Yc2lv/S46QYQgGfDmCeTkX5epsAAAAASUVORK5CYII=" InformativeScreenshot="1c8e49cd4469130ac9c8121e18e60c95.png" Reference="uFQWybWshE2LWpv4ob8a7A/juOdOv2kAU--fy9dEVOWWA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="1772b768-5348-48f1-ac5e-2247caa14f07" CvElementArea="1051, 962, 52, 32" CvTextArea="1062, 972, 29, 12" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="1063, 964, 27, 29" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='ktm-multistep-next' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ktm-multistep-next' tag='SPAN' type='' class='css-17wby6x' aaname='Next' check:innerText='Next' /&gt;" Guid="362f0cde-4dc6-46f0-b367-84c9c385dae0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAhCAYAAAAh3nDkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHDSURBVFhH7ZfNSsNAEMd9pb5HXqAPUG99geClXuqlxYMHocVDEepF6kURil5yshQhFLFaDIXEEGybltCSVFL+TjabNtXW+gHuwQz8YWc/5rc7MwSyBYEmFp6SmhClBC5ECVyIErgQxeA6GuPgozeDWm0tbSqqPs27qMXmvicNtScfXre3NL8CHnDGKGcWm34P57H1TfCeB4NYjqpD4mvv4enjEQyXpgJzPTROO0iVHDjkenfPYbz9Efrk92/sxaO4RcyPcLpd9tqjgY/GUZj+JTgP6rRfkJM1VB6DNQ8XOy2U2zM+fkBNp+HYQVFqYXvPghrENoeQC9rn8JTUwZXFD1P64/D8LR9HZeEv1i5pnLFwPyW86dFcvHe+mvZow+4QBrlB+uNw9qIVptXDOPlmsJfMHCC9LjbXejgpq4Tp1/QFnF3En+Ak1pBz8Zc79is71yhFaz+Az9PPjNecp9npDnBA9ZMPTSjqEHmqLav5dIJKpgvFpk32CDkWRwt9ly5doObk8TfASbzB5nCCyOcTOPRCZv6Mms+CXB1TqwXd3WXnpLMJ8w0lhGXrLjxekSh2DP73SuBClMCFKIEL0X/9RQbeAEiiv7JFjNRtAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Skip'" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f11b5943-d83e-4d2e-b2b4-a93772694f56" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases/bulk-edit" CVScreenId="1f8941b8-4e6d-4c64-bdcd-02dcd736f2a3" ContentHash="P5wZMd52K0CyvV1E-ctrzA" CvElementArea="1062, 306, 48, 32" CvTextArea="1073, 315, 26, 16" CvTextArgument="Skip" CvType="Button" DesignTimeRectangle="1064, 308, 45, 29" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ktm-multistep-next' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='ktm-multistep-next' tag='BUTTON' type='submit' class='css-1luyhz2' aaname='Skip' check:innerText='Skip' /&gt;" Guid="284237a1-de82-4c51-b9c5-eba924efdec7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAAhCAYAAABwSkOHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAI/SURBVFhH7ZjBaxpBFMb713naSy4GD+3FSyDoIbTE4EEhW4g3EQzBHoJSqIctUkEipU0gOUQhYCheDEFRmoCspC2WkPTg1ze7viGaLdqJYZNlP/hgd97M+n4z762wL+ABeQtiNBrh9vYPrq9vnrxFniJfloR4LgBskS9LQjhNfOpm+RBum+VDuG2WD+G2WQuHqGWjCLypoDMdu2qhulvE187U+APMUoMYtFDOpLAcooSXyKF1vGvYsX9C9PeRCK4hcWBOjj/ALAUIE9UkJRrO4EO9DbPfRmPvPYxZEI9glgLECdK0+ysfew6xKYhOBZFgFJESze3SNa1L18U8+xmRwiGMrTg0utZWt1H9z1JjKUD8Rm1nHYFgHIlSExfDybiEuDpFOkzJxcZADhBaKIX8t0uY3SbyMVoXNXB251mzzFLriaGJZimDl7TLgVAc+l5bxmyIIowsgYZzqA3GaxwgJk7zOEf9pcPoju/nMEsNgv2rh6OcbpXDxme7YS0Igrs7ZtmpnESZcbzuFoTlH6i+pcSpbC7o3j6JTzgqpaAFUzC4zmecxM+DbYKg+d/H8+cwSwHiFPlkEeWTFjr9SzS/7GKFdn650LLisieGPRiizrmkHCACYWrmcxPm+SF00T/JfWsj7v+ms1kKEG2UN3X5H6G9iuN17lg2uIQQcweULDe3eFNNQUQKFWRX16znLMWKaHD/zGnWAspJxQ49oWCWD6FuT0Asxiwfwm2zfAi3zZIQnvgC6Ilvsc9ZHoAA/gKoHwUlrZcbMAAAAABJRU5ErkJggg==" InformativeScreenshot="2a2b5ac928a4b9444f91541688cf8bbe.png" Reference="uFQWybWshE2LWpv4ob8a7A/YccZkhwph0aA1_jlE5gaZw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="1f8941b8-4e6d-4c64-bdcd-02dcd736f2a3" CvElementArea="1062, 306, 48, 32" CvTextArea="1073, 315, 26, 16" CvTextArgument="Skip" CvType="Button" DesignTimeRectangle="1074, 308, 25, 29" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='ktm-multistep-next' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ktm-multistep-next' tag='SPAN' type='' class='css-17wby6x' aaname='Skip' check:innerText='Skip' /&gt;" Guid="a604b711-f299-4596-8901-0a611ad417c3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAhCAYAAAAlK6DZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHoSURBVFhH7ZfLSwJRFMb761zNpo3iojZuBNGFFBouFJogdyIoYQtRglxMSIIoUQm6UEFQwo0hipKCjPTAkHZfZ57M2KQhTC2agQ/m3nPu+d3zmMXs4A+ev4Eulx/4bVlQU2VBTZUF/aJGwgfbYRHDVdtzD+V0DnfDlf010kPnPRTiUTicBNglOQM4b0u2b6Gze4TtfoQrvH5/jTRQHuUIBXbFcdkcgJ8N0C5dgNsE3UIaaAsxys59NdY5KNJBh0V47T548+Q7onc6F2sKflIMb7YK7jQEht4ZTxLlldJroO9onAVgs4cQzncxWegdVehzBzEXBQvKFzCAMs4oMg9T8KMuMkE65+PwqIml7+mCRzcfxx5lYXOGwJYGqk2C5sAl6GKuFBpz+YwBVFeteormgwU3ktckPVTR2xi1FCuW5+hGGhARSpfR7okyKq9QdsXe/ClU1AvKJwSiMk5oLWV6jVo+CsYeBaf0aUOmr5UkQcn/SfYnaaAdZCI5FFo9DGdTdG/TcFNmjmxPtKs9XYzBCX1SSmwAtbloePo8+H4VrND/yL14cQPoAIVjVv1Gmf0QDlJ1daBUqOA7p+DKMAmTvAL1ZotIePxinN1gDm2l/7LWlHcbGfTUQBbUVFlQU2VBTdV/+VUEPgGJVeuIaKkxUAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Confirm edit'" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f11b5943-d83e-4d2e-b2b4-a93772694f56" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases/bulk-edit" ContentHash="OZcwS89B7U2xkzHQa0OK9A" DesignTimeRectangle="1027, 408, 72, 29" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='ktm-multistep-next' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ktm-multistep-next' tag='SPAN' type='' class='css-17wby6x' aaname='Confirm edit' check:innerText='Confirm edit' /&gt;" Guid="18f0c7ec-e1fb-4cff-8d5f-d0f89b37508a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEwAAAAhCAYAAABz/U2vAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANYSURBVGhD7ZrPS+NAFMf9l/p/5B/oH1BvPXkrXtZLQajswUPBRbAsrCwsLj2IIO2lIGwRIYhbf2yD0lqKtdYNLYml5bvvZSZp0iaug4vrYR58IZN5M/PmkzdveugStCmZBqZoSynjGFovlwamKA1MURqYojQwRWlgitLAFKWBKUoDU9SbAcuWR7An/Ft5gvrWNfbOHNTLV7G+b6ZDR8ZDz6sd1C5HqGyfxvtKLQBLF/to9LydCZtMYFWtiI+6erB4rk4f+cIV0kYXjSfAPe/G+L6hwsAKA9xTq10Te908HsN+sLExNyYCLEsTuLyxIX39Wh/71T4qpgPruBUZpC4BzDZfO88/VhjYXN9eizk8ByxzhwYnVneAXCbq5Cv9eQDrN/mwTaawryljpK9YYERpLbOTMrPBR27Lhi3eSHOwNwdQjHXQ6E7pgTcg+y8f0fDX46+9TjH6bVprd20xxpTxk7LDhSvDcLs2Sr5fpoWatwYZx9cc84MAJuO0DmU8IQt/6BmwA6Y9hflFtuf18dFLWbczwGbBQr489BZwm10Y1C8WmaJ9dItckTY2pKYzxKfMBVYo3dvUtOkI5rwjGQOMxvLR57mCI/zkorJjYfPIy3va2xhm+YbWpnpITffsNhoj6cMPAcEsX2N5nY4+x0GlYNk4RakpPgjPwTGaHvxFYOk1C5UONYZDlGivK7lZXQuA5U/4k7jYT8guv7+yOntXavJ6I5ToWWTJLIU3zPB880cyBhjDlWOT/NHqSaAt1BkEtUW/rxvUGULg58cxy2r3vBP4G1X+EIvAuG9+P74CYMHg7aiDr7gJZsEkAZPBvARYZO7n/ZOBCb9FoxiLAki7GroFwzVMFViqII8cBZENOfhKzDCZGe8DmHzfvAsyLFCmL8pCMMcrMyxFZ1xskrA8UPGmGzJySybUMPskftP/B9hsXatKtZTj/PpIN/4N9VFd6nHXmH7/UQ3bobpKP22SgHnJwAlS/IXlUJkKAWOdIl8d4Z6D8e2JiuT3C68/+81G2++jW7JtdoNsfC/AUhkLu3RT+7dkOP7UWuiWdRxU6DZNAmZs27iXc9gnDFy8nwOm9TdpYIrSwBSlgSlKA1OUBqYoDUxRGpiiNDBFaWCK0v/eUTQNTMmAP/fmVwzXgCEKAAAAAElFTkSuQmCC" InformativeScreenshot="7b68937c254e044c3021fc7f909eb9ab.png" Reference="uFQWybWshE2LWpv4ob8a7A/tbQiUPpdXESjgbCwNbJD_g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, Image" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="1016, 408, 93, 29" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ktm-multistep-next' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='ktm-multistep-next' tag='BUTTON' type='submit' class='css-1yeatxf' aaname='Confirm edit' check:innerText='Confirm edit' /&gt;" Guid="a621ea37-bf00-4e97-8996-943414f30966" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGEAAAAhCAYAAADJXsXPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAO3SURBVGhD7VrPaxpBFO6/JP03pPf8AeYmFHKTXJoehIChhxyElECk0FIoKR5CIehFCFRCQEJqfrkkaERijOmi7EaUr+/tzqwbnW2sNq6H+eADZ9/M7Jv3zXszCfsKGqFDi7AA8ERotXt4+/4Sr98cIhLVfClyfDnOHG8JTwQ2qAZpvgw53hKeCDoD5kuOt4Qngqqj5stSQosQIiW0CCFSQosQIiW0CCFSQosQIiUWUoR4tguzz171Udy6wu6JhWL2Qtl3bty3hD/0e7WOwnkXue1jdd8JKTGTCEvpFspNJ1ou+n0YeUPZd3I2YfBc9RaSqQssRRsoPwL2aUPRd470i5Bq445atYK71s3DHsx7ExujY56hxNQixMkpmwd2aJcWWtjLt5ArWTAOq8r+k9MVwSzNOs9/pl+EEdtuleMwbxFityhzAjTaSMQUduLSpzaM3+7c6A9gXtHOFn1dp7uU0iKLKIPKXG62TJjuEwELuyOiuGMtlBsD+sFBEfbzB5Tl+3hXrpOPsk3v+rI27mMk+ot2sQ1buGE3TGRkv1gVBecdBPavwv/rESIIP4194Y8P/7J5JKYT4QfvigFKnxU25ocHJ13tehubKQPJbMdx2q40ECW76/gAtYMbJNIUrA41rQ4+xs6wQqleo6ZJ5SfhlCOFCDSWyx7P5ZWvRxu5HQObB05+Urx6KGWv6d10vlDTPrl56iPx3U83sKXsFZbXqeyxH1QGl6PHyFRckXkO9rHkCDouwtKagVydGp0OMrTWlcTk54TEVCIkj3jr2NgLyAJpz60On2Uq9KjfRYZ+u7t5mL4bJf98o+VIIQILJsYG9Ue1KUSqosjBpbZrl7xGkQPr9ZN+DLPPPq17/aN5FndcBLaNrmdSSkwlgufQttqucmq4wCARxAInEeHJ3H/vHyyC228c5GPaDXIt79vV/jNhEUSIpES5oYXFFfbATBA7eDFEEM8rt14meIy13JLozbGAmRChmukGjkJ9Twcs3Yye3I4CzgTzSB3IcEQYvtfI09nEfn59oJveNdmozjfZ1KO/T+hM2KFziq7JQSI4G4w3XfoSywElWkWJKUVgHiOZ7+KOFyjxSAfZ9zPHHv9moiZtdDuqlRpe1iyKCJGYgS90Q5O3I7//kTXf7cqykKNbVJAI0W0Td2IO84hFFPM/Q4kZRNCclRJahBApoUUIkRJahBApoUUIkRJahBApoUUIkRKeCPq7o/lS+d2R/gJvvlR+gae/RZ0POb4cZ+W3qBrhQYsQOoA/tefjgfZFrNAAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Done'" sap:VirtualizedContainerService.HintSize="451.2,49.6" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="f11b5943-d83e-4d2e-b2b4-a93772694f56" TextString="[number_of_updated_cases]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases/bulk-edit" ContentHash="ATiSn-SblUClRpGCfnaf4g" DesignTimeRectangle="772, 255, 178, 18" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='' /&gt;" Guid="2f6e22e1-3489-4598-87de-314244d52d94" InformativeScreenshot="dcd00d35bae9b0d56dccb273754c0bed.png" Reference="uFQWybWshE2LWpv4ob8a7A/N0Awcy7mc0S2SESCyQ-7Qg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="1068, 325, 31, 29" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='ktm-multistep-next' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ktm-multistep-next' tag='SPAN' type='' class='css-17wby6x' aaname='Done' check:innerText='Done' /&gt;" Guid="e7f8da50-c01a-478d-8ccc-7b4fac1243bb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACMAAAAhCAYAAABTERJSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHMSURBVFhH7ZTBasJAEIb7SnmPvEAfwGNfQLwXCkoPpRS8FQ9eisWDFKRCCRQqUghSrJYGxTRItTQJQqJE/s4mm5jUrnppm0MWfsjO7M58OzubA6RopAtGkjtIizIYkTIYkTIYkTIYkdIKM0Z7zv/L4Vh40DoT5HPJTb+lTRjjE/mihrP6B5TBEi6DsmyU/gBoE2Y8TSw4ajo+kH7XD2w5DdUngvQYJY25i/bVS+Ar27DJpKsmdCdwuxMzOoh88o6eFdjhUdVbI8g8D9NOGEk2oLLAQ2bv4vJ1xSJBrY+ogm+4Ndh8CeWU1nIYWHNUL6i6935doSt0kNwEvQXBUeVL+T6Ofd8KamWdaw+YuH0KjT7dZ2PtL5qYkW32oK0r0+pyf7DeVseQbtiJPLTLYVzuexzx+V4wdCK6Eh9gIxlTLCH3a82kj8UsqeG9Joe/j8fa3TNKvJziyvhXsQVGot6LrjPc+02bMPHXNAxOw+iDRhP0zMJBrUD+bTAF+mYVntp+P7G9tYGJapT/J5jYcC0HyrWW6HgpN0KDIKPXRGsa5/zatsHQ/LBCryyWw55QM4dxSTGY/1cGI1IGI1IGI1IGI1K6YPifORUjRTDAFy5qFEQk7GtIAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NGetText>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="WIMC7gGJL02FB9PEsBvarg" IconBase64="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" InformativeScreenshot="9795df392afad5406a298b27acff9949.jpg" Reference="uFQWybWshE2LWpv4ob8a7A/4FxqY6qxAUSxA2JakK4daQ" Selector="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" Title="Zephyr Scale - JIRA" Url="https://projects.qad.com/secure/Tests.jspa#/v2/testCases" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="608,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[number_of_updated_cases]" />
+  </Sequence>
+</Activity>

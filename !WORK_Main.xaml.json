@@ -1,0 +1,33 @@
+{
+  "DisplayName": "!WORK_Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "WriteRangeConnections_1_Connection0",
+      "DisplayName": "WriteRangeConnections_1_Connection",
+      "Category": null,
+      "Tooltip": "Write Range",
+      "Placeholder": null,
+      "Widget": "Connection",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 1,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "WriteRangeConnections_1_Connection0_Property0_Metadata",
+      "DisplayName": "WriteRangeConnections_1_Spreadsheet",
+      "Category": null,
+      "Tooltip": "Write Range",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 2,
+      "DataSourceItems": null
+    }
+  ]
+}

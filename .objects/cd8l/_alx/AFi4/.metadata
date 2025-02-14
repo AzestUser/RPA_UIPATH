@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Chrome Zephyr Scale - tracebility matrix",
+  "Type": "Screen",
+  "Id": "AFi4Tn9ctU6tzw35NPtBSw",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/AFi4Tn9ctU6tzw35NPtBSw",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/_alxohbgRk-3QRYh8WnhjA",
+  "Created": "2024-06-12T15:50:29.476381Z",
+  "Updated": "2024-06-12T15:51:31.6411134Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

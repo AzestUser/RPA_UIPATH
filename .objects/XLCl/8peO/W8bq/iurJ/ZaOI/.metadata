@@ -1,0 +1,13 @@
+﻿{
+  "Id": "ZaOIF5fKfUinCF9ig7a95g",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/ZaOIF5fKfUinCF9ig7a95g",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/iurJM0XtS0Of3NqAR0axvg",
+  "Name": "[IP manager]",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-05-01T15:16:45.0623664Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-01T15:16:45.0623664Z"
+}

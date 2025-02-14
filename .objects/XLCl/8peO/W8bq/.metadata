@@ -1,0 +1,12 @@
+﻿{
+  "Id": "W8bqjyWf_0qzhUxKHAI6dw",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/W8bqjyWf_0qzhUxKHAI6dw",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/8peOVs0LdkSEX-0yLg2XMg",
+  "Name": "Edge: IP Manager - Agile Board - JIRA",
+  "Type": "Screen",
+  "Created": "2023-05-01T15:16:41.8879362Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-01T15:16:41.8879362Z"
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome: Zephyr Scale - JIRA",
+  "Type": "Screen",
+  "Id": "4FxqY6qxAUSxA2JakK4daQ",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/4FxqY6qxAUSxA2JakK4daQ",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/_alxohbgRk-3QRYh8WnhjA",
+  "Created": "2024-05-21T07:03:06.0708921Z",
+  "Updated": "2024-05-21T07:03:06.0708921Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

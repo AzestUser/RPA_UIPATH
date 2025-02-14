@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tWLhrEcNZE-fNSHIqGWnBg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="504, 97, 89, 50" DesignTimeScaleFactor="1.25" ElementType="ArrowButton" FriendlyName="'Issues'" FullSelectorArgument="&lt;webctrl id='find_link' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='find_link' tag='A' type='' class=' aui-nav-link aui-dropdown2-trigger aui-dropdown2-ajax' aaname='Issues' check:text='Issues' /&gt;" Guid="72b264f8-63c0-4ee7-b053-86a1c6246d43" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF0AAAA2CAYAAAClQpVaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJsSURBVHhe7ZY/ahtBFIf3AL5Eel/ABIJ7QRp1hmAwLgWBpHNrcJfGJ1AbFyl0AbmxG19AhUBtSGUbJLt7mb/yzO5brVby7s/F78EH2nkzu5pvZt5usVwuhfRLsVqthPRLMZ1OhfRLcfDpSEi/UDoASgdA6QAoHQClA6B0AJQOgNIBUDoASgdA6QAoHQClA6B0AJQOgNIBUDoASgdA6QD2ln5x/ywiCxkrOaJD6Zs4Hsngq9Ie+HwykkOlvQlKr+PbRGavZmryLLe/Tkv5YZi3yMtsIoMs1wyl1/FjKn+dVhup+DfhLv7dyVl5bAPdSL9Z+D+0jjRvdlBojTG78bnaBXT3MxO/zNvHczd8HfE+kUyOjacHuUjyTQzNc1/CUPf8q9P8nq/mv57rYzfx/tIVQeN5zHvhj/fX65zt3176tdw+maZUouuzaQHNmHk76ZZcfBJG+O/vQ3VME+8u3V3X7ajLB3lUdmxka+mVRfC4nR+e7X7PJ1l+Vyri9xBu6Winm1AnHEuLItawrfQ6oel4/7t0qnZmKGd/gvg9hVu6qeluR8coSwylIURah7eTno+vRjI+bgAbLeu5xuHJTxkc67k2dCN9TRSkl5TKbnSSmqTvUjo2n7C+6Vi6xU+4/GURyQSW5GZ9kvbmZyo0vE/6pIMX6SKfWCrSTHyW1djy10zYkcpXSb4YSr/QNy7u2xeTZ6eF6ogOpNvrNBJZWa33UXnRlfvYU6CeAKW2J4vgT0caH0O4ZW/ppD2UDoDSAVA6AEoHQOkAKB0ApQOgdACUDoDSAVA6AEoHQOkAKB0ApQOgdADFwZeRkD4ZyX9Xjx72uAz4BAAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IP Manager - Agile Board - JIRA' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopLeft" X="58" Y="20" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="6cc6fb0c7274d79244cb1927275d2011.png" xmlns="">0Z4lWFlPh7UWBGSLAaThQhw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

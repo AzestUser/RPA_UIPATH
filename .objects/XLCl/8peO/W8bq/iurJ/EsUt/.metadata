@@ -1,0 +1,13 @@
+﻿{
+  "Id": "EsUtOOdoMEe8rSXZ4e7Knw",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/EsUtOOdoMEe8rSXZ4e7Knw",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/iurJM0XtS0Of3NqAR0axvg",
+  "Name": "IMG (19)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-05-01T15:16:46.8375432Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-01T15:16:46.8375432Z"
+}

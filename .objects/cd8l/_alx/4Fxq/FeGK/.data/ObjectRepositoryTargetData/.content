@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="10OA9vO7B0mhlmvZbAathQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://projects.qad.com/secure/Tests.jspa#/v2/testCases" DesignTimeRectangle="654, 220, 12, 12" DesignTimeScaleFactor="0.75" FullSelectorArgument="&lt;webctrl aria-label='More' aria-role='img' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='More' aria-role='img' tag='SPAN' type='' class='css-1wits42' aaname='' /&gt;" Guid="d9744b7e-d6db-4d7f-92a2-55815a6241ed" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABHSURBVDhPY/j27cd/SvCoAYPagKLqif9Pnb0GxjFpDVjVgDBOAx48fAbW6BaYBzYEmxoQxusFkCH4NIPwIA5EYvGQN+DHfwDJDtpPy0ZdSAAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zephyr Scale - JIRA' /&gt;" SearchSteps="FuzzySelector, Image" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="05fefbe43515bfeb34ced4b293036897.png" xmlns="">0_XePJk8VekKUy-gXDVhX5A</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

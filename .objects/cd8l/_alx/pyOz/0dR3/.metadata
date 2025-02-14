@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Take Screenshot 'Overall Progress38.5%61…'",
+  "Type": "Element",
+  "Id": "0dR32pCO7EeHth1aFjXrpw",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/0dR32pCO7EeHth1aFjXrpw",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/pyOzN-CWVkOR5no8yxTGoQ",
+  "Created": "2024-06-12T16:09:44.4842135Z",
+  "Updated": "2024-06-12T16:09:44.4842135Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

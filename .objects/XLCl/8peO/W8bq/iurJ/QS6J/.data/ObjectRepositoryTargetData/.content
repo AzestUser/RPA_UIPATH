@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gToIStx8bUGC8P2T2_atGw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="401, 97, 103, 50" DesignTimeScaleFactor="1.25" ElementType="ArrowButton" FriendlyName="'Projects'" FullSelectorArgument="&lt;webctrl id='browse_link' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='browse_link' tag='A' type='' class=' aui-nav-link aui-dropdown2-trigger aui-dropdown2-ajax' aaname='Projects' check:text='Projects' /&gt;" Guid="f889d27d-0359-4ce2-8c8b-628fe48a575e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGsAAAA2CAYAAADAr2clAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAALNSURBVHhe7Za/btswEIf1AHmJ7n2BIEDhPUCWblkCFB39BF7zBMmUIUPmjNk6OUABL1nazYOBPEEBx4CdZrryXySSOlqyZcr+NXfAN5ikeDI/8qhiuVySgEGxWq1IwKAYj8ckYFAcfTomAQORBYTIAkJkASGygBBZQIgsIEQWECILCJEFhMgCQmQBIbKAEFlAiCwgRBYQIgsIkQWEyAJCZAHRUdYDTYmJlycaseO3xeaZT66Zvo/DTmSFi3hNjy/a2DPdBWO7kEuWnXd6z/V14+R8SJ+ZdsNgSKdnTHsDGWQpLp9onmkRdkseWaOfCzUr0evsB30bRP3fVc6/undBj5dRXwN5ZLnTdfhlK4+sq99v2oaJQFgpysav2/C5JnqRNZqonabvMXfi4l1l+oOIS2giTzmfC/autM/6oee5m7kffsweks9sJHSg/v8f96CKVzXv10iUfodkmUzQSxm0shY0ry0mf7/ZhfSFMnnun/UgbxHdXH6Od5mlBNs2Leex84Yi+Fwbn75ImB/zyQ2dcM80kEGWbfMXyJ4cpkabBec+RNzCRzu9yhP3O4JNkhgTwMgyc2x+n7AwwrYVpdmJrDjik2Zl1aWYE5RYzPCZSFZyQb1xgbgUjKzyP3GbaAvObkphXURpMt1ZIbYMJkrgNrJcCUyFGWfGNJ0QTpbGvZuL9cLbcKHurAumfTP2KCvHyfJoVc5SsirsezT/xz7Yq6xQiE986uI8bfK2H9N0ctZtqj7Zq6yq3ITC7Neg31bP877jw4VW8828PK5cBu+nTlz1NciU4qBf0+4/9sGeZVmsHC9qYxN5mLurdkrch0YVUWn059DSauMPQ5Smo6y+sLK6X/TYYMhq9bHw/wMhy5TJNWX0o3C4svy7Q0QZQO4sQSOygBBZQIgsIEQWECILCJEFhMgCQmQBIbKAEFlAiCwgRBYQxdGXIQkIDOkfWmNGsUJkUdsAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IP Manager - Agile Board - JIRA' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopLeft" X="70" Y="20" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="c5b25c204fe4f285843e689a2c21c611.png" xmlns="">0buEyTWl46UGuuYloLtN-qg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "iurJM0XtS0Of3NqAR0axvg",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/iurJM0XtS0Of3NqAR0axvg",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/W8bqjyWf_0qzhUxKHAI6dw",
+  "Name": "QIP-3597",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Created": "2023-05-01T15:16:41.9874498Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-01T15:16:41.9874498Z"
+}

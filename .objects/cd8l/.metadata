@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome: Zephyr Scale - JIRA",
+  "Type": "App",
+  "Id": "cd8l67-nZ06vLx6c79LHrw",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/cd8l67-nZ06vLx6c79LHrw",
+  "Created": "2024-05-21T07:03:06.0351776Z",
+  "Updated": "2024-05-21T07:03:06.0351776Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome: QA Log - IP Manager - Google Sheets",
+  "Type": "Screen",
+  "Id": "5_45_Whzb0eieT5jp6eIOA",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/5_45_Whzb0eieT5jp6eIOA",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/reX_ki-VmUSix0DpzLnPiA",
+  "Created": "2024-06-12T13:47:51.3278447Z",
+  "Updated": "2024-06-12T13:47:51.3278447Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

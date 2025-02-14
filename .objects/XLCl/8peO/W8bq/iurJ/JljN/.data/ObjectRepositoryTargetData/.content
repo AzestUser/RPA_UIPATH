@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RrpzygG1yUazFR_K5pWYbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="801, 97, 95, 50" DesignTimeScaleFactor="1.25" ElementType="ArrowButton" FriendlyName="'Insight'" FullSelectorArgument="&lt;webctrl id='rlabs_insight_topmenu_link' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='rlabs_insight_topmenu_link' tag='A' type='' class=' aui-nav-link aui-dropdown2-trigger aui-dropdown2-ajax' aaname='Insight' check:text='Insight' /&gt;" Guid="0e63e030-f8a3-4521-95fa-0577e503b2f1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGMAAAA2CAYAAADTeCfRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKLSURBVHhe7ZcxbtswFIZ1AF+iey5QFCi8G8jiLUuBoKO2bl6CIjfICbIF9ZipBQo4kxdfwIMBrx0aIAlgG5leSZGSSYqWasuGfhn/A75BpEhR7yOf7GS1WgnBIFmv10IwSCaTiRAMkt6Hj0IwoAwgKAMIygCCMoCgDCAoAwjKAIIygKAMICgDCMoAgjKAoAwgKAMIygCCMoCgDCAoA4gzk/EocxGZj2N9+DSTMV6qV3+Tp9tIXwNG0zc171LuI33VUEYnZWTPeJ3JKNJXx8VVKp8i7YYvMrgaRtrrgZRxOKeXMXhYykY9Q55n8v0y6O/fydOz7nyX+UPq9/0HlBHpq+L651+dbROukEKEiT+/b0pj6zi6jPuFalo8Su92Ji/Zsky8TO8iY93YlqVdZSqb24n52CR/O/dWhpkjD2eNwbpM7LOhvql1vNtxKpSQ0aUvYqPefxgdW81pZOhwd51NfLFjo+OqZKiXfVVN3k42idcRyvDb8jX5cg89GYZAiBObxS+57sfG1HMiGeGutsnUJ0Zd1yWiJCN7Tjinwu7ykgz7nPA+t3w1k6EpC2kiQnO6MuXel7fnL29PSuw+TSjDG+uxu0xV33cMGYr+jfywQpqK0LQjQ+PV7kgJKdr8U+XTsoyMoQy+pnIR7duP9mQU2GQ783RLxvEAkKHxk+jLKF8X2HJHGZoDZYymS29MOE85+SaZfvJsm4pDZMTW3jYtydDJdsOfI34Stsk3ofvDJO8hoyiPOjCkNJPROruS3026LQOw1DShGzL0z+Cw9JX+8HWfjpyM8Hth4lzKU07HvxnnBWUAQRlAUAYQlAEEZQBBGUBQBhCUAQRlAEEZQFAGEJQBRNL7nApBIJV/gSKV7ii9IiYAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IP Manager - Agile Board - JIRA' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopLeft" X="63" Y="20" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="fd9cefed8c1c6e052d90d64d52d9d176.png" xmlns="">0fuU8IaBSxk6CjSEyBY34AQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

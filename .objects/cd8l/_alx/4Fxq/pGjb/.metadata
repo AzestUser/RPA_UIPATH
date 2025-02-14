@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Replace existing labels",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "pGjb7Nvd-EuS4T9wW2vTaw",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/pGjb7Nvd-EuS4T9wW2vTaw",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/4FxqY6qxAUSxA2JakK4daQ",
+  "Created": "2024-05-21T18:12:40.586828Z",
+  "Updated": "2024-05-21T18:12:40.586828Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

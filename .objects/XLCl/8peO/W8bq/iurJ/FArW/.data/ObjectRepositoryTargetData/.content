@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="W5Xe3PkUBUi7VJEDRUPDsw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="460, 668, 20, 20" DesignTimeScaleFactor="1.25" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl aaname='Priority: 5-Lowest' parentid='ghx-content-group' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Priority: 5-Lowest' parentid='ghx-content-group' tag='IMG' type='' class='' /&gt;" Guid="97ab260b-d445-4592-b96a-63ab2bef0b2e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADvSURBVEhL7ZQ9CwIxDIb93+7i7uTu4uAguIqCOLiIgpuDcIg4+zF5EH0OA+WaXk+kouADgdImedM0dw1JzF8gyncInC9XWW22MpkvC2N9euzVoVKAxIPRVJqtrmmc4VNFUCDbH6Xd6ZmJXcMH3xCmAFW5yfvDseyyg9zyvDDW7LkioZuYAm5bZov1c9eHM/UjxsIT4PE0iCpjuDexbuEJMCEaQCti4KP+xJbxBBhDDaDfMfBRf2LLfF4geYt4KA149ZGtr9sTgKRjCsk/NEj6q1Coym1X2TgLVa5UCig8HhPCGGKsY4mVWgLv8OsCIneWum8VvThhsAAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IP Manager - Agile Board - JIRA' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b00300d6f7456971eef04122a70d4f13.png" xmlns="">0_NYiuO1rE0qSQD2okkpKKg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

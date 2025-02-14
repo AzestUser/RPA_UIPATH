@@ -1,0 +1,13 @@
+﻿{
+  "Id": "EbwwOXT3Z0-mjKbR37DGdw",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/EbwwOXT3Z0-mjKbR37DGdw",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/iurJM0XtS0Of3NqAR0axvg",
+  "Name": "IMG (6)",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Created": "2023-05-01T15:16:43.9110399Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-01T15:16:43.9110399Z"
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Confirm edit",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "tbQiUPpdXESjgbCwNbJD_g",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/tbQiUPpdXESjgbCwNbJD_g",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/4FxqY6qxAUSxA2JakK4daQ",
+  "Created": "2024-05-21T16:26:06.0621091Z",
+  "Updated": "2024-05-21T16:26:06.0621091Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

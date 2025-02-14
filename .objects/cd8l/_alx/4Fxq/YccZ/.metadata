@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Skip",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "YccZkhwph0aA1_jlE5gaZw",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/YccZkhwph0aA1_jlE5gaZw",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/4FxqY6qxAUSxA2JakK4daQ",
+  "Created": "2024-05-21T16:25:05.6573134Z",
+  "Updated": "2024-05-21T16:25:05.6573134Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

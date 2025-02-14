@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Take Screenshot 'Traceability matrix'",
+  "Type": "Element",
+  "Id": "fgJrnkoHrkqNiJBqxKdTuw",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/fgJrnkoHrkqNiJBqxKdTuw",
+  "ParentRef": "uFQWybWshE2LWpv4ob8a7A/AFi4Tn9ctU6tzw35NPtBSw",
+  "Created": "2024-06-12T15:59:42.0437004Z",
+  "Updated": "2024-06-12T15:59:42.0437004Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

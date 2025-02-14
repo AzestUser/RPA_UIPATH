@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome: QA Log - IP Manager - Google Sheets",
+  "Type": "App",
+  "Id": "3BRj9QiJd0OrtNETxRdPvA",
+  "Reference": "uFQWybWshE2LWpv4ob8a7A/3BRj9QiJd0OrtNETxRdPvA",
+  "Created": "2024-06-12T13:47:51.2975039Z",
+  "Updated": "2024-06-12T13:47:51.2975039Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.4.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
