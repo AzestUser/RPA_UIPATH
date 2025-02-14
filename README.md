@@ -18,31 +18,40 @@ More detailed steps:
 Result
 ![image](https://github.com/user-attachments/assets/9b29456c-0b8b-411c-b727-e71fb2d2e669)
 
-2. Final_report_tracebility_matrix_googlesheet.xaml - generating final tracebility report
+2. Final_report_tracebility_matrix_googlesheet.xaml - generating final tracebility and overall progress reports
+   
      ![image](https://github.com/user-attachments/assets/1a5da152-6e2a-401d-aac1-28d071f3701c)
 
    1a) Loop - For Each Row in Spreadsheet - Do -Read Cell (user stories IDs one by one) from prepared sheet
+   
    ![image](https://github.com/user-attachments/assets/36542200-4bdf-41f4-8d52-274c913b2df5)
    
    1b) Type Into 'Test cycles' DT variable
+   
    ![image](https://github.com/user-attachments/assets/613bbf48-bc7a-4535-8577-f867f3315596)
    
    ![image](https://github.com/user-attachments/assets/0f1e77aa-035b-4302-b3cd-79bb23a48dfe)
 
     1c) Delete Rows - Delete already typed user stories IDs
+   
     ![image](https://github.com/user-attachments/assets/6f0795e3-4cfc-4ae0-81ba-23bed31439d4)
 
-   2) Chrome Zephyr Scale - Navigating to the targeted URL and generating final report after fulfilling Testing cycles field
+   2) Chrome Zephyr Scale - Navigating to the targeted URL and generating final tracibility report after fulfilling Testing cycles field
   
       ![image](https://github.com/user-attachments/assets/b091fcfe-4bd7-4567-bb45-445195c5d16d)
 
    3) Take Screenshot 'Traceability matrix'
+      
     ![image](https://github.com/user-attachments/assets/a2c9f4eb-fe78-4d16-8f65-d956c10f1c1b)
+   
 ![image](https://github.com/user-attachments/assets/eff436c5-8db2-41cc-80a2-a0b1fe73a132)
 
+  4) Chrome Zephyr Scale - Navigating to the targeted URL and generating overall progress report
 
+     ![image](https://github.com/user-attachments/assets/55a5de1a-d735-4ecd-ad34-8d7d2910858e)
 
-   5) 
+![image](https://github.com/user-attachments/assets/c99b50ca-399d-4b75-91cb-eab8d6ce2a18)
+
 
 
   
