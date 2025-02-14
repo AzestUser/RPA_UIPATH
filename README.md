@@ -21,12 +21,16 @@ Result
 2. Final_report_tracebility_matrix_googlesheet.xaml - generating final tracebility report
      ![image](https://github.com/user-attachments/assets/1a5da152-6e2a-401d-aac1-28d071f3701c)
 
-   1a) For Each Row in Spreadsheet - Do -Read Cell from prepared sheet ![image](https://github.com/user-attachments/assets/36542200-4bdf-41f4-8d52-274c913b2df5)
+   1a) For Each Row in Spreadsheet - Do -Read Cell from prepared sheet
+   ![image](https://github.com/user-attachments/assets/36542200-4bdf-41f4-8d52-274c913b2df5)
    
-   1b) Type Into 'Test cycles' ![image](https://github.com/user-attachments/assets/613bbf48-bc7a-4535-8577-f867f3315596)
+   1b) Type Into 'Test cycles' DT variable
+   ![image](https://github.com/user-attachments/assets/0f1e77aa-035b-4302-b3cd-79bb23a48dfe)
+
+    ![image](https://github.com/user-attachments/assets/613bbf48-bc7a-4535-8577-f867f3315596)
    
 
-   3) ![image](https://github.com/user-attachments/assets/dc16e1d4-7b36-473f-a6fb-1b34cd351a9a)
+   3) 
 
 
   
