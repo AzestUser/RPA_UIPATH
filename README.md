@@ -22,7 +22,9 @@ Result
      ![image](https://github.com/user-attachments/assets/1a5da152-6e2a-401d-aac1-28d071f3701c)
 
    1a) For Each Row in Spreadsheet - Do -Read Cell from prepared sheet ![image](https://github.com/user-attachments/assets/36542200-4bdf-41f4-8d52-274c913b2df5)
+   
    1b) Type Into 'Test cycles' ![image](https://github.com/user-attachments/assets/613bbf48-bc7a-4535-8577-f867f3315596)
+   
 
    3) ![image](https://github.com/user-attachments/assets/dc16e1d4-7b36-473f-a6fb-1b34cd351a9a)
 
