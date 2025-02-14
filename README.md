@@ -21,13 +21,15 @@ Result
 2. Final_report_tracebility_matrix_googlesheet.xaml - generating final tracebility report
      ![image](https://github.com/user-attachments/assets/1a5da152-6e2a-401d-aac1-28d071f3701c)
 
-   1a) For Each Row in Spreadsheet - Do -Read Cell from prepared sheet
+   1a) Loop - For Each Row in Spreadsheet - Do -Read Cell (user stories IDs one by one) from prepared sheet
    ![image](https://github.com/user-attachments/assets/36542200-4bdf-41f4-8d52-274c913b2df5)
    
-   1b) Type Into 'Test cycles' DT variable
+   1b) Type Into 'Test cycles' DT variable ![image](https://github.com/user-attachments/assets/613bbf48-bc7a-4535-8577-f867f3315596)
+   
    ![image](https://github.com/user-attachments/assets/0f1e77aa-035b-4302-b3cd-79bb23a48dfe)
 
-    ![image](https://github.com/user-attachments/assets/613bbf48-bc7a-4535-8577-f867f3315596)
+    1c) Delete Rows - Delete already typed user stories IDs  ![image](https://github.com/user-attachments/assets/6f0795e3-4cfc-4ae0-81ba-23bed31439d4)
+
    
 
    3) 
