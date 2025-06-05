@@ -42,8 +42,7 @@ Result
 
    3) Take Screenshot 'Traceability matrix'
       
-    ![image](https://github.com/user-attachments/assets/a2c9f4eb-fe78-4d16-8f65-d956c10f1c1b)
-   
+  
 ![image](https://github.com/user-attachments/assets/eff436c5-8db2-41cc-80a2-a0b1fe73a132)
 
   4) Chrome Zephyr Scale - Navigating to the targeted URL and generating overall progress report
